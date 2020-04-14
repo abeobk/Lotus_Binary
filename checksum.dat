@@ -22,8 +22,9 @@ a38c8809fb203f3648e97e9fea1ebe08381346e8 *./LotusAPI.Robotics.dll
 59b3b5133be055c31bbf8904cc17d3622cfc3764 *./LotusAPI.Sim.dll
 b6dc61875f75a12df35c6995d91c0fcd62271261 *./LotusAPI.Utils.dll
 5b4391a1b20358c7517c2dcbbfc45444ced61175 *./lotus_gl_v140_x64.dll
-67067a52f61021a4e84be6f711c6c2489afbb34e *./lotus_hw_basler_v140_x64.dll
-9aad2930dd695e9960585917a831b50134b9c0a3 *./lotus_hw_ti_v140_x64.dll
+156c29f1b52179c427b500708fec98c9d5ab240d *./lotus_hw_basler_v140_x64.dll
+bc198d70b9bd86f5fcc491bbd87468edc1b6de3a *./lotus_hw_ptgrey_v140_x64.dll
+63241aba018e48d016a4908eec2c4ac8b62db6db *./lotus_hw_ti_v140_x64.dll
 cbb9afa52b7a242850678a5316d9ca1ce687b844 *./lotus_ml_v140_x64.dll
 9285a60e77f461d014ad42784491835e54adaea9 *./lotus_mv_v140_x64.dll
 e7c5a39d5829dd5ef26e6c7cd6cc8809ccda1965 *./lotus_sim_v140_x64.dll
@@ -39,4 +40,13 @@ f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
 c523db7da79efd0a4664761411faed488fa936bd *./ThemeVS2015.dll
+32ea5a8b93187c39fbe5fc0d362b625c74a468d6 *./vcamp120.dll
+ca0fb6e96c39c955365db0ee5e9084a472684030 *./vcamp140.dll
+86826d400451cefdf863f6f5ba41bec746de230f *./vccorlib120.dll
+04928138f2ee79cb734836fe009bb33c6e0555e1 *./vccorlib140.dll
+1f8c667df810fed8fb42a6680a15465ac1e288eb *./vcomp120.dll
+4fee261457681c7002c30277d1cb5f5dfa4b7422 *./vcomp140.dll
+30a2719d4b8667fd237bcfb781660901c993d9fc *./vcruntime140.dll
+d7bf5acfb4bed8b0790dfc617a9b6f899b484d4a *./vcruntime140_1.dll
+6790994b2e72e7fe8690cd8eba1fcf4577389280 *./vcruntime140_clr0400.dll
 5f87f28835c89cb0d89760a1ace150af7b090c00 *./WinFormsUI.Docking.dll
