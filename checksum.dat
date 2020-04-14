@@ -31,6 +31,7 @@ e7c5a39d5829dd5ef26e6c7cd6cc8809ccda1965 *./lotus_sim_v140_x64.dll
 c67d150eebd893038ea605d931d4f5e4c100dcb5 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 13c9808a22d8a7f88ed4ce3cc72e6e75aaa2775a *./opencv_world410.dll
+5c6df7ebf3903c6c43d0207b008d0256cb22f31d *./push.sh
 ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
