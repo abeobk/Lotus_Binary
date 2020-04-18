@@ -39,7 +39,6 @@ f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
-ec8d13ac7ae82059c8788d2f07d3e199ff13e71f *./test_db.exe
 c523db7da79efd0a4664761411faed488fa936bd *./ThemeVS2015.dll
 32ea5a8b93187c39fbe5fc0d362b625c74a468d6 *./vcamp120.dll
 ca0fb6e96c39c955365db0ee5e9084a472684030 *./vcamp140.dll
