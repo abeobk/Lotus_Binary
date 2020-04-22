@@ -5,7 +5,6 @@ dc4d93e8e8803e15a15eda8ab9eea060061058d2 *./en-US/ATMC.App.SealerInspection.reso
 5e2c4c2e9b4f3fe1b8684d87a0569264507b9e1e *./en-US/LotusAPI.App.resources.dll
 123fe310d1d035932b65fac5006209c4dcd692bf *./EntityFramework.dll
 ec2fee9ef3bafd2a73b5fc4333eff395f4a5eb73 *./FastColoredTextBox.dll
-d812f5e97da359b0918e077262d0e915ae4be5cf *./ffi-7.dll
 68a08633dfdb2faffa7db82507752f1620556efd *./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7 *./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89 *./ftcserco.dll
@@ -13,18 +12,6 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx.dll
 d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 530ff5dbdfa3812b37d6e1ee6a256643be1998a3 *./ftlang.dll
 96c964f6956b47b07248b18ca5b2e1131317c41c *./ftserui2.dll
-4eaa33627cd6e03c109146171ba995643a67aea5 *./glib-2.0-0.dll
-48cd6821d602ed97460e8936b6ee35d317ab8517 *./gmodule-2.0-0.dll
-343f8060f5ac46e84b64cc51a3479c53d5dd91cd *./gobject-2.0-0.dll
-df8a55da89ece2e93dba6904f7f65ecb6b06cc2d *./gstapp-1.0-0.dll
-8c810f3f1ddf33214feb5838a5696ab90a2ca763 *./gstaudio-1.0-0.dll
-9a296979775a3d1b2051f495b3466906918c8a87 *./gstbase-1.0-0.dll
-9e192d9e8892b314f9f9ea0c7b1655bd5b9afc7f *./gstpbutils-1.0-0.dll
-b345ceafeb281357c06a31048339ffa9cdd7c129 *./gstreamer-1.0-0.dll
-b926a2b9e5494298b6968c4a719bc630b59d8181 *./gstriff-1.0-0.dll
-b553751e4a35759dd1437fa8e32441b50d8026a3 *./gsttag-1.0-0.dll
-00b0a3131a4ce1467877ce61ef9f2cae424500da *./gstvideo-1.0-0.dll
-70294a3788bdac7a5dfc0fc96af53ec73587381c *./intl-8.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
 a25b240243d78ff0009d36e928929ceb9bdb619c *./LotusAPI.App.exe
@@ -43,8 +30,7 @@ cc9064cc2ae77890ef3801b151360b2c05f1a3c9 *./lotus_hw_ti_v140_x64.dll
 74bd2a8c28d6ebb91e599a2f742d87e423567bd3 *./lotus_sim_v140_x64.dll
 704a19d80a9092c48635fb2cc2f43d7d43d32170 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
-4fe44c5ddfd6b0ce39419ff82276f811608c85b8 *./opencv_world410.dll
-acde824a74e062d7a234b13a2465d59c169dbea2 *./orc-0.4-0.dll
+60d14cdb53fdcbc0abfee0db617382d61c84519f *./opencv_world410.dll
 5bf3852489b42a73e1d5eda75a070d13b1c37847 *./push.sh
 ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
@@ -64,4 +50,3 @@ ca0fb6e96c39c955365db0ee5e9084a472684030 *./vcamp140.dll
 d7bf5acfb4bed8b0790dfc617a9b6f899b484d4a *./vcruntime140_1.dll
 6790994b2e72e7fe8690cd8eba1fcf4577389280 *./vcruntime140_clr0400.dll
 5f87f28835c89cb0d89760a1ace150af7b090c00 *./WinFormsUI.Docking.dll
-c7eb9f09db2754accfeb290f5d49e4ca9497bbc2 *./z-1.dll
