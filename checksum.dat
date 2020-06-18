@@ -1,4 +1,4 @@
-2dd3649be2064765dc0a83a93482dc583dc8b08f *./Abeo.Controls.dll
+266c09bd6a8c0d5e9942bcb04e16fb41517d02ca *./Abeo.Controls.dll
 a88408e5af7136bf09923fc33a8e76882fb90801 *./AbeoJsonEditor.exe
 4dfb5d7c1d12f70a792fe7b64761c7c8649e824d *./AbeoSIM.exe
 fbc68245e400798057d171550977904b8888ff3e *./abeosim_layout.cfg
@@ -21,7 +21,7 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 fe345f65ef4f7d340dc67d844efa5891da216061 *./LotusAPI.App.exe
 17eecca448b7e466aee1f4aa6d77751e271db42d *./LotusAPI.Controls.dll
 9dfb70b5c788c2f409deca41f5960ba4142eef71 *./LotusAPI.dll
-6ec0a35714c0084a57f5a306ad7727f196ce1be3 *./LotusAPI.HW.dll
+dc355543dbe49b7ae940ca41cec17651095446c2 *./LotusAPI.HW.dll
 cb61899aefab812e849eeeee7d8295d7fff9c042 *./LotusAPI.Robotics.dll
 c8aee420100de144c2c116fe035b2d3f2c6f7be7 *./LotusAPI.Sim.dll
 a63855f6e3240f126f4334e4ed533c5304ff846e *./LotusAPI.Utils.dll
