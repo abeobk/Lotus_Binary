@@ -1,4 +1,4 @@
-9af490f5250c79c26fd6a0f27d14a8ce82d14272 *./Abeo.Controls.dll
+0e6b677d5d9e909da3732991d7e95525139f896e *./Abeo.Controls.dll
 63c8fda96e196eac8a2f3d21f924b71e54c0eb03 *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 fbc68245e400798057d171550977904b8888ff3e *./abeosim_layout.cfg
@@ -19,10 +19,10 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
 cf8b0a754b974cf030ad55ecc8566abf97517ac3 *./LotusAPI.App.exe
-17eecca448b7e466aee1f4aa6d77751e271db42d *./LotusAPI.Controls.dll
-9dfb70b5c788c2f409deca41f5960ba4142eef71 *./LotusAPI.dll
-dec652bdc55b35162d0c23804afa643957470477 *./LotusAPI.HW.dll
-884967ad0bc5159bc0fccf5cb5f7545f8857b7e9 *./LotusAPI.Robotics.dll
+32bdc4912dc6a6ed595eda171375b5af4b1c935f *./LotusAPI.Controls.dll
+a766db677f2fefebe7853a030eec088f1f786a1a *./LotusAPI.dll
+e26f9e17742e036d137aaf05410c6cc6ba01ee37 *./LotusAPI.HW.dll
+58dd7917c4261915b882b6041cf02aa2bba503c5 *./LotusAPI.Robotics.dll
 63b587540a46e9bdbfec4b5a8c9976c40c44ed41 *./LotusAPI.Sim.dll
 e56155775645a92e965cfda562111726b073b372 *./LotusAPI.Utils.dll
 8b5b141a35bf175af7ee4c4d03230787542be3ae *./lotus_gl_v140_x64.dll
