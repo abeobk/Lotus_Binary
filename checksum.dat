@@ -1,4 +1,4 @@
-82d6bf02d5586b02618ae0c191fcb4ce4ba7dc93 *./Abeo.Controls.dll
+4ee595baa2bb2c618e643dd4ced12af3e92a3bd7 *./Abeo.Controls.dll
 63c8fda96e196eac8a2f3d21f924b71e54c0eb03 *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 fbc68245e400798057d171550977904b8888ff3e *./abeosim_layout.cfg
@@ -22,7 +22,7 @@ e2ed3fc054d8df509387d02cc9f3cdd6abe0c423 *./LotusAPI.App.exe
 a9601f933cc34df96190191a82fc06acb129cd88 *./LotusAPI.Controls.dll
 967dd99599aa734e550642883e571c0c51d7bc33 *./LotusAPI.dll
 ddd5b6127985835a50a6cbd723f8905b63ee7df3 *./LotusAPI.HW.dll
-be6344ce5244a3f29042c4863a0d45ccef59e108 *./LotusAPI.Robotics.dll
+2ec0ba3767841bafc961d518b38c8de1c443ad60 *./LotusAPI.Robotics.dll
 63b587540a46e9bdbfec4b5a8c9976c40c44ed41 *./LotusAPI.Sim.dll
 bef0a8455873550d464aa5a3b8acbc9a85bec3a6 *./LotusAPI.Utils.dll
 8b5b141a35bf175af7ee4c4d03230787542be3ae *./lotus_gl_v140_x64.dll
@@ -37,7 +37,7 @@ bef0a8455873550d464aa5a3b8acbc9a85bec3a6 *./LotusAPI.Utils.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
 03147574c2bba76c1c3a568e7b11867d8a884d9a *./opencv_world410.dll
 bc9f6b845cac8111a36facd77c92ce7a55d64b5c *./push.sh
-ba3aa14f38963bba91ca4b56d7ea954304aebdff *./RobotController.exe
+54c05f18a0e5269c85a4125635ca215c493095c4 *./RobotController.exe
 ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
