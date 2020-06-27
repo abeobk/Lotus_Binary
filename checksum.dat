@@ -18,7 +18,7 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 157b76d377b1e99bb918f710b8f1135c04cb3770 *./glfw3.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
-f82a0ba88ebd160c51ee708737a1fea27c021e40 *./LotusAPI.App.exe
+705bddee9586640ccf5ba01e37cce438dd1ee618 *./LotusAPI.App.exe
 f579788433ae58749ed702392ac84f90384eb27e *./LotusAPI.Controls.dll
 9c6245e2e2b67f7c3f7ab516d7de44c84b63cee6 *./LotusAPI.dll
 ddd5b6127985835a50a6cbd723f8905b63ee7df3 *./LotusAPI.HW.dll
@@ -28,7 +28,7 @@ bef0a8455873550d464aa5a3b8acbc9a85bec3a6 *./LotusAPI.Utils.dll
 8b5b141a35bf175af7ee4c4d03230787542be3ae *./lotus_gl_v140_x64.dll
 5bc8bca5efd9a99ad94c6fb169b7e2648b48025c *./lotus_hw_basler_v140_x64.dll
 2ede9d4d92399476963846bfd9f6455ff5d01fcc *./lotus_hw_ptgrey_v140_x64.dll
-9169b6acf862f5c83629e6b14ee56b9accda5767 *./lotus_hw_ti_v140_x64.dll
+edf0bade88926143cfead825d735f10c41926178 *./lotus_hw_ti_v140_x64.dll
 03b998b36c7963ad5ed849eef5b93e5424a183da *./lotus_ml_v140_x64.dll
 9894d93c8c60f0db3936c032be92be6d4550157b *./lotus_mv_v140_x64.dll
 0941cdd60bc6829cfa262e15c2c94b181c19307b *./lotus_sim_v140_x64.dll
