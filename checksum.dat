@@ -23,10 +23,10 @@ b3060c72c70d3492b1fe02d94fb571dc6aeccd71 *./LotusAPI.App.exe
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
 02530024dec80f65c6865020ca44675302aa659a *./LotusAPI.dll
 e6fce541b06186cc07486033170a84660504bcaf *./LotusAPI.HW.dll
-1b8361daacd7a56add50d1b5f44d85e47274891f *./LotusAPI.Robotics.dll
+3571ede9f7726c40ee1f99baa3a4af8a822de5d2 *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
-d9bb3eef572f23ba85d6d3df2162e50752249468 *./LotusAPI.Utils.dll
+f84067ed5ad6917c1bbe8ab331b4c55098789c19 *./LotusAPI.Utils.dll
 4376c3e859f017c30189bbdc4ab85a3f5ea85c31 *./lotus_gl_v140_x64.dll
 39e707dc93bf1b027c126e3bb8cb6f213874cd3f *./lotus_hw_basler_v140_x64.dll
 aa8e9875e49559fb1497f324488f1d6d4f61aeb2 *./lotus_hw_ptgrey_v140_x64.dll
