@@ -176,6 +176,20 @@
             Contains Network utilities
             </summary>
         </member>
+        <member name="M:LotusAPI.NetUtils.PingHost(System.String)">
+            <summary>
+            Ping a host
+            </summary>
+            <param name="ip">host address</param>
+            <returns>true if succeed</returns>
+        </member>
+        <member name="M:LotusAPI.NetUtils.IsConnected(System.Net.Sockets.TcpClient)">
+            <summary>
+            Check if a connection is still alive
+            </summary>
+            <param name="client">TCP client</param>
+            <returns>true if alive</returns>
+        </member>
         <member name="T:LotusAPI.Net.PacketBuilder">
             <summary>
             Packet builder
