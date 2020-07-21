@@ -18,12 +18,12 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 157b76d377b1e99bb918f710b8f1135c04cb3770 *./glfw3.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
-0e6eabd28c14e7b158a26230b6a1c58ad8171619 *./LotusAPI.App.exe
-8ef85dd1c491efcea14a9cfa333140e2a1fb3c46 *./LotusAPI.Controls.dll
+6325ff1923b712273a7b0144e77e8948c939f047 *./LotusAPI.App.exe
+44c70aaf0f3f1e5bb6ba449bca6e12082cce6b27 *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
-79747982d21ca5763ad02742f65ed34a66a5765b *./LotusAPI.dll
+24bda31b82661c224b14f5fe8b23ddbcd33e1673 *./LotusAPI.dll
 76193814a56afedb04390bafb872e561d70de909 *./LotusAPI.HW.dll
-b8ccb4288a35020ff0e6372220f59bea0276c903 *./LotusAPI.Robotics.dll
+cad11f338a574ea2e210e392cf890dea228f1c3b *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 e4c32c7a22cb6f94a461c28c799eb53176b127f6 *./LotusAPI.Utils.dll
@@ -34,8 +34,8 @@ e4c32c7a22cb6f94a461c28c799eb53176b127f6 *./LotusAPI.Utils.dll
 0c089481e853246e4131bf6b7a86659faeb89b2f *./lotus_hw_ptgrey_v140_x64.dll
 4835ed3a59870e077c0ebd15d717b788e7c3c5c5 *./lotus_hw_ti_v140_x64.dll
 ed72ffc282e16a5837c42e69eb2b82eeb3f86fcf *./lotus_ml_v140_x64.dll
-0c3e125289d6d41a8a95a784ac2c180a526839e2 *./lotus_mv_v140_x64.dll
-be82a0bcbb8b664648a677ab995b627e3834fb6d *./lotus_sim_v140_x64.dll
+4f99a15c0604314987d970df4969f4af307e8bed *./lotus_mv_v140_x64.dll
+e824169605408e9de6ed11589ee7c07d769d58c9 *./lotus_sim_v140_x64.dll
 5a012ba5a5ecdee31caa7c23dcc7e569ae391ae5 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
@@ -46,7 +46,7 @@ ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-5849bc0831b06129eec3a37d12513ddffc731212 *./StereoLocator.exe
+f55dd2a392bb3fc9f18a6c41da0c880b9b436cd9 *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
