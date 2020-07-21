@@ -1,4 +1,4 @@
-4479d461c17e86d1bcffc0787758afdee0a0c75d *./Abeo.Controls.dll
+7ea5317f30527239fa3f5fe2a74a1ea5909a13d6 *./Abeo.Controls.dll
 b496718bb5ef609c3188a9fb7d1b189cdc55b85c *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -18,12 +18,12 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 157b76d377b1e99bb918f710b8f1135c04cb3770 *./glfw3.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
-a881fd1c7e5bf16241992b700b9f25e44ee909fb *./LotusAPI.App.exe
-317664213888dc2f5498d2ae75feca171987804d *./LotusAPI.Controls.dll
+0e6eabd28c14e7b158a26230b6a1c58ad8171619 *./LotusAPI.App.exe
+8ef85dd1c491efcea14a9cfa333140e2a1fb3c46 *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
-c7fd56818d4b383bba9c99d82f5be9908af2e033 *./LotusAPI.dll
+79747982d21ca5763ad02742f65ed34a66a5765b *./LotusAPI.dll
 76193814a56afedb04390bafb872e561d70de909 *./LotusAPI.HW.dll
-30563b8d0b26aaa6c895e46738556f85e27c59ff *./LotusAPI.Robotics.dll
+b8ccb4288a35020ff0e6372220f59bea0276c903 *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 e4c32c7a22cb6f94a461c28c799eb53176b127f6 *./LotusAPI.Utils.dll
@@ -34,8 +34,8 @@ e4c32c7a22cb6f94a461c28c799eb53176b127f6 *./LotusAPI.Utils.dll
 0c089481e853246e4131bf6b7a86659faeb89b2f *./lotus_hw_ptgrey_v140_x64.dll
 4835ed3a59870e077c0ebd15d717b788e7c3c5c5 *./lotus_hw_ti_v140_x64.dll
 ed72ffc282e16a5837c42e69eb2b82eeb3f86fcf *./lotus_ml_v140_x64.dll
-f3e31381a853da3236e4ddd23547670ae51e08a1 *./lotus_mv_v140_x64.dll
-f8277e41c22a4dec1cdee68348e13a0d8ad94687 *./lotus_sim_v140_x64.dll
+0c3e125289d6d41a8a95a784ac2c180a526839e2 *./lotus_mv_v140_x64.dll
+be82a0bcbb8b664648a677ab995b627e3834fb6d *./lotus_sim_v140_x64.dll
 5a012ba5a5ecdee31caa7c23dcc7e569ae391ae5 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
