@@ -1,4 +1,4 @@
-9d6406a1306eb160c55d840182fe670d37ab782d *./Abeo.Controls.dll
+525190aba2ddf581e98a46c2a045508c774f5bf5 *./Abeo.Controls.dll
 b496718bb5ef609c3188a9fb7d1b189cdc55b85c *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -19,11 +19,11 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
 0530ac71156600844bf0305c9e8a33d32ebebd73 *./LotusAPI.App.exe
-e36745c9b373d1b8758782990c883542d2b97dbf *./LotusAPI.Controls.dll
+dc0c37403cf69e5c148cf19e6f3edad0c877bd22 *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
-d9733cbaa523b1f5d22216e8412183df92ed7fd3 *./LotusAPI.dll
+b40ca477d0af315d65c736ed3aff7708b58494d8 *./LotusAPI.dll
 e4da8cc5f95bb0be55358b2c998da17adc4c1f9a *./LotusAPI.HW.dll
-16291833e98ada9bfcb52c90ad28ca4b59f05125 *./LotusAPI.Robotics.dll
+cf08a8cf151c5756b8d66e2bea4f1dead3d97ff5 *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 e4c32c7a22cb6f94a461c28c799eb53176b127f6 *./LotusAPI.Utils.dll
@@ -34,8 +34,8 @@ e4c32c7a22cb6f94a461c28c799eb53176b127f6 *./LotusAPI.Utils.dll
 0c089481e853246e4131bf6b7a86659faeb89b2f *./lotus_hw_ptgrey_v140_x64.dll
 4835ed3a59870e077c0ebd15d717b788e7c3c5c5 *./lotus_hw_ti_v140_x64.dll
 ed72ffc282e16a5837c42e69eb2b82eeb3f86fcf *./lotus_ml_v140_x64.dll
-733f12b8e3d441d3ad64b57f972fa43930cd1290 *./lotus_mv_v140_x64.dll
-f044c4ab0231fb6b058c1273aa29d23c8dd6ac0b *./lotus_sim_v140_x64.dll
+9d01252ed259ac68c568eefc0a5b4e40ca3aaf3c *./lotus_mv_v140_x64.dll
+c4b74f3e8ca5a4a8ebbf94c7ac002b034ec704a7 *./lotus_sim_v140_x64.dll
 5a012ba5a5ecdee31caa7c23dcc7e569ae391ae5 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
@@ -46,7 +46,7 @@ ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-3148db7c3219eaa0bf8fa14ebb13eae8d93dc990 *./StereoLocator.exe
+70bdb2a51ce45527711b79288659409c82f5d8e9 *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
