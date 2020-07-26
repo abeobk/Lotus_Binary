@@ -18,12 +18,12 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 157b76d377b1e99bb918f710b8f1135c04cb3770 *./glfw3.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
-0530ac71156600844bf0305c9e8a33d32ebebd73 *./LotusAPI.App.exe
+6130341dd91255cf53a3c3d72b0a3ad514151db1 *./LotusAPI.App.exe
 3e36b9536e2bb422237a949543ea7e5e1bf39d44 *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
 920a211fcc11fd2b8dba48054d32ef717a6659b9 *./LotusAPI.dll
 e4da8cc5f95bb0be55358b2c998da17adc4c1f9a *./LotusAPI.HW.dll
-f4b9b0bd5dbfd5b197948895a059e1579324cf32 *./LotusAPI.Robotics.dll
+39e8ff8ecda4e73b396077674903c9e1c1d01045 *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 e4c32c7a22cb6f94a461c28c799eb53176b127f6 *./LotusAPI.Utils.dll
@@ -46,7 +46,7 @@ ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-f9e8c99f09d8213608b2ef22c89cf201d1414317 *./StereoLocator.exe
+192f4a8d624cacabddcb793d1e23ca672e74deee *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
