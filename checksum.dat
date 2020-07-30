@@ -1,4 +1,4 @@
-525190aba2ddf581e98a46c2a045508c774f5bf5 *./Abeo.Controls.dll
+dc6a01b985cfb08ae7a4827d903ef33ad55e06aa *./Abeo.Controls.dll
 b496718bb5ef609c3188a9fb7d1b189cdc55b85c *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -34,8 +34,8 @@ e85f686f920d26c4cfe5c30ab7cd1b28bc54b5e7 *./lotus_hw_basler_v140_x64.dll
 3566132c6a353c2c51850127f950b1b3d641ff20 *./lotus_hw_ptgrey_v140_x64.dll
 81b15985ab1bd7e9ffe3e77bb35508be1c124f07 *./lotus_hw_ti_v140_x64.dll
 ed72ffc282e16a5837c42e69eb2b82eeb3f86fcf *./lotus_ml_v140_x64.dll
-e3b51e2d91d79240207695ea561c2b4934fc0e18 *./lotus_mv_v140_x64.dll
-32e848d4e7878c68bd9d8481d0c6a9d739494f0d *./lotus_sim_v140_x64.dll
+f9d26a60a8b857ebba81a003802d587143b141dd *./lotus_mv_v140_x64.dll
+0951bb7dc92402b0b28ad3578237a5c8835a45b9 *./lotus_sim_v140_x64.dll
 1ff92bf391e09261a67493763549354ec04c229d *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
