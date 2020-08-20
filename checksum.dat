@@ -1,4 +1,4 @@
-670bf42ff6a89a87a48c3d3e13c9f2600452b0ae *./Abeo.Controls.dll
+c497045aaf39cedf2097e0b33fe6bb2cc20043ef *./Abeo.Controls.dll
 b496718bb5ef609c3188a9fb7d1b189cdc55b85c *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -34,7 +34,7 @@ db589fb91df206c85c864d5bcb011d2e388d6f7d *./lotus_gl_v140_x64.dll
 b86fe12b9ce30e5e43226281717cd942178b2624 *./lotus_hw_ptgrey_v140_x64.dll
 c3bea0756287d610459f3309e08bc14de9d49f1a *./lotus_hw_ti_v140_x64.dll
 b795e6ba8f8833144871b68791d310d0390fd207 *./lotus_ml_v140_x64.dll
-8500d53778cee5cb1466ce31559c7437025af738 *./lotus_mv_v140_x64.dll
+89c1847bcb7f682be47db8f4015ae3d454b53a8b *./lotus_mv_v140_x64.dll
 c1e6142622d9ce4942578319f81aafd28b69b02e *./lotus_sim_v140_x64.dll
 a9a0d2e88f1c5436f65bfaeb615f1a89b6f8da69 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
@@ -47,7 +47,7 @@ ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-39822eddb2d45073530e83db478f07f37aeda808 *./StereoLocator.exe
+1feff8b462c8d876ef96fca1052e3fc1660b8f72 *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
