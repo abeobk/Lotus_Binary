@@ -1,4 +1,4 @@
-cb1ed35d423bbb470df6551547449ea13f5328db *./Abeo.Controls.dll
+d429971fd9e981d98726387f0f6bbbcbddb0dd67 *./Abeo.Controls.dll
 b496718bb5ef609c3188a9fb7d1b189cdc55b85c *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -21,9 +21,9 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 8e1c009432f0060c9c3fe07f86586e7e7aea4278 *./LotusAPI.App.exe
 923804a67900aa825c2c86554ce9d905c922786d *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
-bfefea30022381dc285bcc72ea8bb15ef970070c *./LotusAPI.dll
+c099653da4a041ea97605b1e5ff07d5283c4e856 *./LotusAPI.dll
 144d9c47e2a945ddc225fbee868087a6aa7031aa *./LotusAPI.HW.dll
-6fca2d15bd829a46ec492a4ae5fc735ae35cceca *./LotusAPI.Robotics.dll
+db4d65fb2f93c3c7914f855019fb83ca66d24bff *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 9bffe783e22817d70716e32cc45f649cfbd3a4fd *./LotusAPI.Utils.dll
@@ -35,7 +35,7 @@ b86fe12b9ce30e5e43226281717cd942178b2624 *./lotus_hw_ptgrey_v140_x64.dll
 c3bea0756287d610459f3309e08bc14de9d49f1a *./lotus_hw_ti_v140_x64.dll
 b795e6ba8f8833144871b68791d310d0390fd207 *./lotus_ml_v140_x64.dll
 69998f16664884207363a5b63894e1f16eeb3c56 *./lotus_mv_v140_x64.dll
-8fd48b4dbf7c804b931bdd174aa717c3370e2456 *./lotus_sim_v140_x64.dll
+ef1406f69d55beaac37fcb721154c63839c2e609 *./lotus_sim_v140_x64.dll
 a9a0d2e88f1c5436f65bfaeb615f1a89b6f8da69 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
@@ -47,7 +47,7 @@ ab664f89e7148aaeab520f045414dea05c170ae3 *./SharpGL.dll
 d059bda30d5b2794fceee2b0b840fdce4be83933 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-5154b5a3d5c2bb08ec588bad85aa71cc331b33c1 *./StereoLocator.exe
+11f6217aeafe5d25d22484def5091849d6d1260a *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
