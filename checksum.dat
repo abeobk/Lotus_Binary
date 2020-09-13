@@ -1,4 +1,4 @@
-d429971fd9e981d98726387f0f6bbbcbddb0dd67 *./Abeo.Controls.dll
+f48c41a9b8c772c4758a6f8c5c56609ac704a8a0 *./Abeo.Controls.dll
 b496718bb5ef609c3188a9fb7d1b189cdc55b85c *./AbeoJsonEditor.exe
 f5426bcd6bd9bebd9908a35469daa2a20dab58c2 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -21,7 +21,7 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 443b9f7c2df167e39418a51e39c7c95685fd91e0 *./LotusAPI.App.exe
 184bedead28deed375c8653e31b785996ca5f726 *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
-8de4f2ea1146e64478ab6984a37fb36ed2cc4833 *./LotusAPI.dll
+04017f15b05cac60ac36f9692f1f3492bcdb3ef6 *./LotusAPI.dll
 98e092d1ae03b6367ba0b41310a66023c747c3c4 *./LotusAPI.HW.dll
 0539e79a6747312fdd9dda6806d1130579bb22af *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
@@ -30,13 +30,13 @@ fef7b8554afc4b06d920b4ecfbd7adb1efbf362a *./LotusAPI.Utils.dll
 5d4a3fa8bc251cb7e366f23faae611c2236eff13 *./LotusAPI.Utils.xml
 409dafa8655e9cf7eabc2488e32b14d4814248c0 *./LotusAPI.xml
 e40ef363925c03c7b0193ce97d61fc6071294906 *./lotus_gl_v140_x64.dll
-76b0e4fc8ea2706f63dd862be5b641f012bbbab9 *./lotus_hw_basler_v140_x64.dll
-5af84c0b4760ce108d0d0386eca2f0f81ce6297c *./lotus_hw_ptgrey_v140_x64.dll
-5f0c25798a34e1988b3dbf6c6472b89a8ea0845e *./lotus_hw_ti_v140_x64.dll
+24e7e5c1b94be7cf267e5a53573245729bb4ab38 *./lotus_hw_basler_v140_x64.dll
+014dc9284fd3992bf1d3d14d03d2858148303424 *./lotus_hw_ptgrey_v140_x64.dll
+ab830cee798e1afc95b1a6f6c1fa8f0122994464 *./lotus_hw_ti_v140_x64.dll
 b795e6ba8f8833144871b68791d310d0390fd207 *./lotus_ml_v140_x64.dll
-63e51fc04f916843754cc3850952b99f31299329 *./lotus_mv_v140_x64.dll
-9f6e94d67a3020acc57f80fd7747e75b3048a0c3 *./lotus_sim_v140_x64.dll
-1473eafe2ae62d17bc00bd0f6797a96d0a8c264b *./lotus_v140_x64.dll
+91267e60cb68f7f2ccb603e93833f170cc28f2cc *./lotus_mv_v140_x64.dll
+d814cff03d1c9859ffdb293c4ac32ea9abbe7b46 *./lotus_sim_v140_x64.dll
+a106de4133e24480cdfddf41e7a8645513eca073 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
 03147574c2bba76c1c3a568e7b11867d8a884d9a *./opencv_world410.dll
