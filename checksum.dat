@@ -22,8 +22,8 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 a862b1c198b16774b54d8185148c4114fc722171 *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
 468664b7e51f0a815d958529dfde6568e90bfa60 *./LotusAPI.dll
-b8e348c469af599c1a3d50f4152e72ff4bafc754 *./LotusAPI.HW.dll
-7ae639314db0c4250bd455e38b2982d03a0de2c4 *./LotusAPI.Robotics.dll
+49dbeeec12e9ee0f9be7d7c09c60fd88dbba4c7b *./LotusAPI.HW.dll
+3668ad060809f45f371ea070a1c3c6ee35a4c694 *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 21d850359642dfbc456096fbe7701cd7970412a0 *./LotusAPI.Utils.dll
