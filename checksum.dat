@@ -19,11 +19,11 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 75417af4edea72b51c71ff0b953997c24a8a260e *./ko-KR/ATMC.App.SealerInspection.resources.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
 443b9f7c2df167e39418a51e39c7c95685fd91e0 *./LotusAPI.App.exe
-d9b8db14480a0a783b61cfe81ee4087cf4354d8a *./LotusAPI.Controls.dll
+fa09b099ee309557905df69b0a841eb544c023cb *./LotusAPI.Controls.dll
 a2b06e74befe0bebd5c0f0ff63682777e931457d *./LotusAPI.Data.dll
-066c0f31e2483b64df3e7106a63432d11487d36b *./LotusAPI.dll
+49be0041e6c92f0b654ad6e41e886eb0540f7ccd *./LotusAPI.dll
 2d8a833cb629136535c32927b94d80a579a0a9ed *./LotusAPI.HW.dll
-d1827403a3867720d32b0bcf243e8c524a343a92 *./LotusAPI.Robotics.dll
+35c91c57f01f977b52299a08783ba9fad8dca94a *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 21d850359642dfbc456096fbe7701cd7970412a0 *./LotusAPI.Utils.dll
@@ -34,8 +34,8 @@ c441568660ce7858b7f1eadbf3df5c0ad77b359b *./LotusAPI.Sim.dll
 2d86f0c997de45f3dac7132aae2f798c343a6d3a *./lotus_hw_ptgrey_v140_x64.dll
 1c39b58e8ea390d0f07dd3a83451ae7bf1f438dd *./lotus_hw_ti_v140_x64.dll
 b795e6ba8f8833144871b68791d310d0390fd207 *./lotus_ml_v140_x64.dll
-99a0bd523bee9cb4bd16d2f7136a1eaac312f5ab *./lotus_mv_v140_x64.dll
-5a3502d8064d72aa0704d1a9d161579614820b4e *./lotus_sim_v140_x64.dll
+89128d2ab66f7d67eff8316bf340bc7a23d8ee45 *./lotus_mv_v140_x64.dll
+b12f8d082e1581384d9d5e21faf181629a2d502e *./lotus_sim_v140_x64.dll
 2ae1dc9b5c18dde9a26de279e210cf633bb46e3a *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
