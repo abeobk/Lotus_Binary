@@ -1,4 +1,4 @@
-1b4cd1924dda23718f9f3ccf1b10110b59da6e57 *./Abeo.Controls.dll
+1e7a74257d5e298e4b982ee526c6f1509ace3807 *./Abeo.Controls.dll
 b1e4ac17d44e07f1faad80b6b796a8bae0cf27b9 *./AbeoJsonEditor.exe
 e231e7777bcaf1d1cf8832c15d3ab7a58b28af50 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -7,6 +7,7 @@ dc4d93e8e8803e15a15eda8ab9eea060061058d2 *./en-US/ATMC.App.SealerInspection.reso
 5e2c4c2e9b4f3fe1b8684d87a0569264507b9e1e *./en-US/LotusAPI.App.resources.dll
 123fe310d1d035932b65fac5006209c4dcd692bf *./EntityFramework.dll
 ec2fee9ef3bafd2a73b5fc4333eff395f4a5eb73 *./FastColoredTextBox.dll
+9c5d992f8593388d85a2f7d3413d9624be61b9ac *./firmware/linux/abeopilib_1.0.1.deb
 68a08633dfdb2faffa7db82507752f1620556efd *./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7 *./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89 *./ftcserco.dll
