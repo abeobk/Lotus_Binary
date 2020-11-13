@@ -1,4 +1,4 @@
-9ba9b47cdfd012ee6523b6b71531ae3d21827740 *./Abeo.Controls.dll
+34f5450fcc6d35f4d676961a18e09bc7c3ae1c85 *./Abeo.Controls.dll
 b1e4ac17d44e07f1faad80b6b796a8bae0cf27b9 *./AbeoJsonEditor.exe
 e231e7777bcaf1d1cf8832c15d3ab7a58b28af50 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
@@ -21,11 +21,11 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 3952a8819e72812426a6228976836eb8126bfd53 *./ko-KR/LotusAPI.App.resources.dll
 66fd26a3c25afdd7dc7e78443777623b31169bcc *./LogViewer.exe
 581058000d0017af4fbb5437b8241c361861abe3 *./LotusAPI.App.exe
-f001e25d20aa745ac97b8e8aa219e91470560221 *./LotusAPI.Controls.dll
+57ff6328f484b0105a2ee0265d5017f267799720 *./LotusAPI.Controls.dll
 4c6b7fa6229d2243e3d54673bf0e7778c9e38b4a *./LotusAPI.Data.dll
-743f8ae5902b23b620061b6025fb460475b63227 *./LotusAPI.dll
-496905d1eb00858fef88d2b24e078d0fdb3b094e *./LotusAPI.HW.dll
-f1eb8f0e84bd2b5edc61b06d1772789abb9c43f4 *./LotusAPI.Robotics.dll
+395333df7d0d149ce7cb1de2e2d3b212563c4bea *./LotusAPI.dll
+1b5e357380d29b1844afa07932cf8a96a679255f *./LotusAPI.HW.dll
+dcc22807ebd8dee9e9daad9d705efc7396649316 *./LotusAPI.Robotics.dll
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 b740a138bd1153be7e8904cf35ca3cc31a22eb76 *./LotusAPI.Sim.dll
 d23736446f5b44d5d513cdebe9262eecd573ae7f *./LotusAPI.Utils.dll
@@ -36,8 +36,8 @@ c879376af5c75911d48f615d1bb11e87a10eb21f *./lotus_hw_basler_v140_x64.dll
 0a325eef629b7b0a5e97fefddb38d0ad949aafd3 *./lotus_hw_ptgrey_v140_x64.dll
 11a9bc1c0f7e979092e9e6cc594e34d82a6ad2ae *./lotus_hw_ti_v140_x64.dll
 5528bfac0ab93d0464ba6e9b2b8faec91356777f *./lotus_ml_v140_x64.dll
-60678423b99c5b274027f1f4956cc8217ee63e4d *./lotus_mv_v140_x64.dll
-e218f716af6785d5e6883b3936a31aba2f566b8e *./lotus_sim_v140_x64.dll
+ee9a7a62b3f184eeeb13a70beba6ceebe7387aba *./lotus_mv_v140_x64.dll
+eb6e77e7db5c8ee13b3f731a396039c7c1d79b5a *./lotus_sim_v140_x64.dll
 593d5b108d21fd30c1959df6b73c2e4f1b2d3e1c *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
