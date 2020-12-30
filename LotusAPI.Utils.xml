@@ -4,6 +4,123 @@
         <name>LotusAPI.Utils</name>
     </assembly>
     <members>
+        <member name="F:LotusAPI.Utils.AlarmClock.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.AlarmClock.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Utils.AlarmClock.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Utils.EventCounter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.EventCounter.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Utils.EventCounter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Utils.DialogChangePassword.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.DialogChangePassword.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Utils.DialogChangePassword.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Utils.FormAddProfile.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.FormAddProfile.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Utils.FormAddProfile.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Utils.FormTypeInfoEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.FormTypeInfoEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Utils.FormTypeInfoEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Utils.LogFileWatcher.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.LogFileWatcher.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Utils.LogFileWatcher.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LotusAPI.Utils.TaskQueue">
+            <summary>
+            Asynchronous task queue
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.TaskQueue.#ctor">
+            <summary>
+            Create task queue and start
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Utils.TaskQueue.Start">
+            <summary>
+            Start the queue
+            </summary>
+        </member>
         <member name="T:LotusAPI.ChecksumUtils">
             <summary>
             Checksum utilities
@@ -29,6 +146,40 @@
             </summary>
             <param name="data">input data</param>
             <returns>checksum</returns>
+        </member>
+        <member name="F:LotusAPI.Dialogs.FormObjectProperty.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Dialogs.FormObjectProperty.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Dialogs.FormObjectProperty.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Dialogs.DialogLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Dialogs.DialogLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Dialogs.DialogLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
         </member>
         <member name="T:LotusAPI.DialogUtils">
             <summary>
@@ -100,23 +251,6 @@
             <param name="filter">File filter</param>
             <returns>return selected file path</returns>
         </member>
-        <member name="F:LotusAPI.Dialogs.DialogLogin.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:LotusAPI.Dialogs.DialogLogin.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:LotusAPI.Dialogs.DialogLogin.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
         <member name="T:LotusAPI.IOUtils">
             <summary>
             IO utilities
@@ -171,12 +305,20 @@
             <param name="binding">The binding flag</param>
             <returns>The object</returns>
         </member>
+        <member name="M:LotusAPI.JsonUtils.Clone``1(``0)">
+            <summary>
+            Clone an object with json
+            </summary>
+            <typeparam name="T">Object type</typeparam>
+            <param name="obj">Object</param>
+            <returns>Clonned object</returns>
+        </member>
         <member name="T:LotusAPI.NetUtils">
             <summary>
             Contains Network utilities
             </summary>
         </member>
-        <member name="M:LotusAPI.NetUtils.PingHost(System.String)">
+        <member name="M:LotusAPI.NetUtils.PingHost(System.String,System.Int32)">
             <summary>
             Ping a host
             </summary>
@@ -210,21 +352,40 @@
             Big endian, Most significant byte first
             </summary>
         </member>
+        <member name="P:LotusAPI.Net.PacketBuilder.BytePosition">
+            <summary>
+            Current byte position 
+            </summary>
+        </member>
         <member name="P:LotusAPI.Net.PacketBuilder.Buffer">
             <summary>
             Data buffer
             </summary>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetRemainingBytes">
+            <summary>
+            Get remained bytes starting from BytePosition
+            </summary>
+            <returns></returns>
         </member>
         <member name="P:LotusAPI.Net.PacketBuilder.Endianess">
             <summary>
             Endianess
             </summary>
         </member>
-        <member name="M:LotusAPI.Net.PacketBuilder.#ctor(LotusAPI.Net.PacketBuilder.Endian)">
+        <member name="M:LotusAPI.Net.PacketBuilder.SetEndianess(LotusAPI.Net.PacketBuilder.Endian)">
+            <summary>
+            Temporarily set the endian for subsequence data
+            </summary>
+            <param name="temporary_endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.#ctor(LotusAPI.Net.PacketBuilder.Endian,System.Collections.Generic.List{System.Byte})">
             <summary>
             Construct a packet builder
             </summary>
             <param name="endianess">The endianess</param>
+            <param name="buffer">The initial buffer</param>
         </member>
         <member name="M:LotusAPI.Net.PacketBuilder.Clear">
             <summary>
@@ -237,11 +398,49 @@
             </summary>
             <param name="value">byte value</param>
         </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetByte">
+            <summary>
+            Get byte value
+            </summary>
+            <returns>byte value</returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendString(System.String)">
+            <summary>
+            Append a string
+            </summary>
+            <param name="txt">string</param>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetString(System.Int32)">
+            <summary>
+            Get strign value
+            </summary>
+            <param name="length"></param>
+            <returns>string value</returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendBytes(System.Byte[])">
+            <summary>
+            Add byte array
+            </summary>
+            <param name="bytes">byte array</param>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetBytes(System.Int32)">
+            <summary>
+            Get byte array
+            </summary>
+            <param name="length"></param>
+            <returns>byte array</returns>
+        </member>
         <member name="M:LotusAPI.Net.PacketBuilder.AppendChar(System.Char)">
             <summary>
             Append a char
             </summary>
             <param name="value">char value</param>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetChar">
+            <summary>
+            Get a single char
+            </summary>
+            <returns>Char value</returns>
         </member>
         <member name="M:LotusAPI.Net.PacketBuilder.AppendUInt16(System.UInt16)">
             <summary>
@@ -249,17 +448,107 @@
             </summary>
             <param name="value">ushort value</param>
         </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetUInt16">
+            <summary>
+            Get ushort value
+            </summary>
+            <returns>value</returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendInt16(System.Int16)">
+            <summary>
+            Append short value
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetInt16">
+            <summary>
+            Get short value
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:LotusAPI.Net.PacketBuilder.AppendUInt32(System.UInt32)">
             <summary>
             Append a 32-bit integer
             </summary>
             <param name="value">uint value</param>
         </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetUInt32">
+            <summary>
+            Get uint32 value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendInt32(System.Int32)">
+            <summary>
+            Append int32 value
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetInt32">
+            <summary>
+            Get int32 value
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:LotusAPI.Net.PacketBuilder.AppendUInt64(System.UInt64)">
             <summary>
             Append a 64-bit integer
             </summary>
             <param name="value">ulong value</param>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetUInt64">
+            <summary>
+            GEt uint64 value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendInt64(System.Int64)">
+            <summary>
+            Append int64 value
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetInt64">
+            <summary>
+            Get int64 value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendFloat(System.Single)">
+            <summary>
+            Append float value
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetFloat">
+            <summary>
+            Get float value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendDouble(System.Double)">
+            <summary>
+            Append double value
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.GetDouble">
+            <summary>
+            Get double value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.AppendPacket(LotusAPI.Net.PacketBuilder)">
+            <summary>
+            Append another packet
+            </summary>
+            <param name="packet"></param>
+            <returns></returns>
         </member>
         <member name="M:LotusAPI.Net.PacketBuilder.Send(System.Net.Sockets.NetworkStream)">
             <summary>
@@ -273,240 +562,235 @@
             </summary>
             <returns>hex string</returns>
         </member>
-        <member name="T:LotusAPI.Utils.Properties.Resources">
+        <member name="T:LotusAPI.UtiDialogsls.Properties.Resources">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.ResourceManager">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.ResourceManager">
             <summary>
               Returns the cached ResourceManager instance used by this class.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.Culture">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.Culture">
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.camera_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.camera_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.cancel_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.cancel_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.chart_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.chart_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.clear_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.clear_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.clipboard_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.clipboard_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.close_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.close_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.copy_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.copy_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.cut_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.cut_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.db_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.db_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.down_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.down_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.edit_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.edit_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.export_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.export_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.fast_bwd_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.fast_bwd_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.fast_fwd_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.fast_fwd_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.file_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.file_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.folder_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.folder_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.generic_icon_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.generic_icon_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.help_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.help_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.home_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.home_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.hwcard_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.hwcard_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.image_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.image_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.import_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.import_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.left_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.left_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.load_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.load_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.log_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.log_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.maximize_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.maximize_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.minus_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.minus_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.model_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.model_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.ok_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.ok_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.password_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.password_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.paste_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.paste_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.pause_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.pause_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.play_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.play_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.plus_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.plus_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.replace_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.replace_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.reset_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.reset_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.right_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.right_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.save_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.save_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.setting_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.setting_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.stop_playing_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.stop_playing_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.topmost_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.topmost_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.up_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.up_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:LotusAPI.Utils.Properties.Resources.user_24">
+        <member name="P:LotusAPI.UtiDialogsls.Properties.Resources.user_24">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
-            </summary>
-        </member>
-        <member name="T:LotusAPI.Utils.StringUtils">
-            <summary>
-            Contains string utilities
             </summary>
         </member>
         <member name="T:LotusAPI.RegexUtils">
@@ -636,154 +920,128 @@
             Ask for permission on write
             </summary>
         </member>
-        <member name="T:LotusAPI.Settings.IProperty">
+        <member name="T:LotusAPI.Settings.Property">
             <summary>
             The interface for setting property
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.WriteProtectionType">
-            <summary>
-            Write protection type
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.IProperty.Category">
+        <member name="P:LotusAPI.Settings.Property.Category">
             <summary>
             The category
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.Name">
+        <member name="P:LotusAPI.Settings.Property.Name">
             <summary>
-            The name
+            The property name
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.DisplayName">
+        <member name="P:LotusAPI.Settings.Property.DisplayName">
             <summary>
             The display name
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.Description">
+        <member name="P:LotusAPI.Settings.Property.Description">
             <summary>
             The description
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.Browsable">
+        <member name="P:LotusAPI.Settings.Property.Browsable">
             <summary>
-            The browsability of the  property
+            The browsability
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.ReadOnly">
+        <member name="P:LotusAPI.Settings.Property.ReadOnly">
             <summary>
-            Readonly flag
+            The readonly flag
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.EditorType">
+        <member name="P:LotusAPI.Settings.Property.Type">
             <summary>
-            The custom type editor
+            Get value type
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.Value">
+        <member name="P:LotusAPI.Settings.Property.EditorType">
             <summary>
-            Gets or sets the value
+            The type of the custom property editor
             </summary>
         </member>
-        <member name="P:LotusAPI.Settings.IProperty.DefaultValue">
+        <member name="P:LotusAPI.Settings.Property.WriteProtectionType">
             <summary>
-            Gets the default value
+            Write protection type
             </summary>
         </member>
-        <member name="M:LotusAPI.Settings.IProperty.SetDefault">
-            <summary>
-            Sets the value to default
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.IProperty.Type">
-            <summary>
-            The property type
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.IProperty.Serializer">
+        <member name="P:LotusAPI.Settings.Property.Serializer">
             <summary>
             The serializer
             </summary>
         </member>
-        <member name="M:LotusAPI.Settings.IProperty.GetMetaData">
+        <member name="P:LotusAPI.Settings.Property.Value">
             <summary>
-            Gets meta data
+            Gets or sets the value
             </summary>
-            <returns>The meta json object</returns>
         </member>
-        <member name="M:LotusAPI.Settings.IProperty.SetMetaData(LotusAPI.Json)">
+        <member name="M:LotusAPI.Settings.Property.Get``1">
             <summary>
-            Sets meta data
+            Get object as type T
             </summary>
-            <param name="node">Meta data json object</param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
         </member>
-        <member name="M:LotusAPI.Settings.IProperty.SetSerializer(LotusAPI.Settings.ISerializer)">
+        <member name="P:LotusAPI.Settings.Property.DefaultValue">
             <summary>
-            Set object serializer
+            Gets the default value
             </summary>
-            <param name="serializer"></param>
         </member>
-        <member name="M:LotusAPI.Settings.IProperty.Serialize">
+        <member name="M:LotusAPI.Settings.Property.SetDefault">
+            <summary>
+            Sets the value to default
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Settings.Property.GetMetaData">
+            <summary>
+            Get the meta data json data
+            </summary>
+            <returns>The meta data</returns>
+        </member>
+        <member name="M:LotusAPI.Settings.Property.SetMetaData(LotusAPI.Json)">
+            <summary>
+            Set metadata
+            </summary>
+            <param name="node">Json node</param>
+        </member>
+        <member name="M:LotusAPI.Settings.Property.SetSerializer(LotusAPI.Settings.ISerializer)">
+            <summary>
+            Sets the serializer
+            </summary>
+            <param name="serializer">The serializer</param>
+        </member>
+        <member name="M:LotusAPI.Settings.Property.Serialize">
             <summary>
             Serialize this property
             </summary>
         </member>
-        <member name="M:LotusAPI.Settings.IProperty.Deserialize">
+        <member name="M:LotusAPI.Settings.Property.Deserialize">
             <summary>
             Deserialize this property
             </summary>
+        </member>
+        <member name="M:LotusAPI.Settings.Property.Write(LotusAPI.Json)">
+            <summary>
+            Json write
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:LotusAPI.Settings.Property.Read(LotusAPI.Json)">
+            <summary>
+            Json read
+            </summary>
+            <param name="node"></param>
         </member>
         <member name="T:LotusAPI.Settings.Property_`1">
             <summary>
             Base class for setting property
             </summary>
             <typeparam name="T">The type of the underlying data</typeparam>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.Category">
-            <summary>
-            The category
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.Name">
-            <summary>
-            The property name
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.DisplayName">
-            <summary>
-            The display name
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.Description">
-            <summary>
-            The description
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.Browsable">
-            <summary>
-            The browsability
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.ReadOnly">
-            <summary>
-            The readonly flag
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.EditorType">
-            <summary>
-            The type of the custom property editor
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.WriteProtectionType">
-            <summary>
-            Write protection type
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Settings.Property_`1.Serializer">
-            <summary>
-            The serializer
-            </summary>
         </member>
         <member name="P:LotusAPI.Settings.Property_`1.Type">
             <summary>
@@ -796,7 +1054,7 @@
             </summary>
             <param name="value">value</param>
         </member>
-        <member name="M:LotusAPI.Settings.Property_`1.#ctor(System.String,System.Type,`0,LotusAPI.Settings.WriteProtectionType,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+        <member name="M:LotusAPI.Settings.Property_`1.#ctor(`0,System.Type,LotusAPI.Settings.WriteProtectionType,System.String,System.String,System.String,System.Boolean,System.Boolean)">
             <summary>
             Create a setting property
             </summary>
@@ -810,11 +1068,10 @@
             <param name="browsable">The browsability</param>
             <param name="read_only">The readonly flag</param>
         </member>
-        <member name="M:LotusAPI.Settings.Property_`1.#ctor(System.String,`0,LotusAPI.Settings.WriteProtectionType,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+        <member name="M:LotusAPI.Settings.Property_`1.#ctor(`0,LotusAPI.Settings.WriteProtectionType,System.String,System.String,System.String,System.Boolean,System.Boolean)">
             <summary>
             Create a setting property
             </summary>
-            <param name="name">The property name</param>
             <param name="default_value">The default value</param>
             <param name="write_protect">The write protection type</param>
             <param name="disp_name">The display name</param>
@@ -839,12 +1096,6 @@
             Gets the default value
             </summary>
         </member>
-        <member name="M:LotusAPI.Settings.Property_`1.GetMetaData">
-            <summary>
-            Get the meta data json data
-            </summary>
-            <returns>The meta data</returns>
-        </member>
         <member name="M:LotusAPI.Settings.Property_`1.Read(LotusAPI.Json)">
             <summary>
             Read value from json node
@@ -857,23 +1108,11 @@
             </summary>
             <param name="node">Json node</param>
         </member>
-        <member name="M:LotusAPI.Settings.Property_`1.SetMetaData(LotusAPI.Json)">
-            <summary>
-            Set metadata
-            </summary>
-            <param name="node">Json node</param>
-        </member>
         <member name="M:LotusAPI.Settings.Property_`1.ToString">
             <summary>
             Convert to string
             </summary>
             <returns>The string representation</returns>
-        </member>
-        <member name="M:LotusAPI.Settings.Property_`1.SetSerializer(LotusAPI.Settings.ISerializer)">
-            <summary>
-            Sets the serializer
-            </summary>
-            <param name="serializer">The serializer</param>
         </member>
         <member name="M:LotusAPI.Settings.Property_`1.SetDefault">
             <summary>
@@ -903,9 +1142,26 @@
             The property changed event
             </summary>
         </member>
+        <member name="M:LotusAPI.Settings.SettingObject.FirePropertyChangedEvent(System.Object,LotusAPI.Settings.Property)">
+            <summary>
+            Fire property changed event
+            </summary>
+            <param name="sender"></param>
+            <param name="prop"></param>
+        </member>
         <member name="P:LotusAPI.Settings.SettingObject.Serializer">
             <summary>
             The serializer, set this value will force reload parameter
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Settings.SettingObject.Localize(System.String)">
+            <summary>
+            Localize setting object
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Settings.SettingObject.#ctor">
+            <summary>
+            Construct
             </summary>
         </member>
         <member name="M:LotusAPI.Settings.SettingObject.GetProperties">
@@ -950,6 +1206,109 @@
             Custom type descriptor
             </summary>
         </member>
+        <member name="T:LotusAPI.StringUtils">
+            <summary>
+            Contains string utilities
+            </summary>
+        </member>
+        <member name="M:LotusAPI.StringUtils.ConvertToRegistryKey(System.String)">
+            <summary>
+            Convert string to registry key
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.StringUtils.HexDump(System.Byte[],System.Int32)">
+            <summary>
+            Hex dump
+            </summary>
+            <param name="bytes"></param>
+            <param name="bytesPerLine"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.StringUtils.ASCIISymbol(System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LotusAPI.ThreadSafeFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LotusAPI.ThreadSafeFlag.TRUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LotusAPI.ThreadSafeFlag.FALSE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.#ctor(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="initial_state"></param>
+        </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="initial_state"></param>
+        </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.op_Implicit(LotusAPI.ThreadSafeFlag)~System.Int32">
+            <summary>
+            
+            </summary>
+            <param name="f"></param>
+        </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.op_Implicit(LotusAPI.ThreadSafeFlag)~System.Boolean">
+            <summary>
+            
+            </summary>
+            <param name="f"></param>
+        </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.Set(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.Set(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LotusAPI.ThreadUtils">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LotusAPI.ThreadUtils.DelayExecute(System.Action,System.Int32)">
+            <summary>
+            Delay execute a function
+            </summary>
+            <param name="action"></param>
+            <param name="delay_ms"></param>
+        </member>
+        <member name="M:LotusAPI.ThreadUtils.IsAppRunning(System.String)">
+            <summary>
+            Check if app is running
+            </summary>
+            <param name="key">Application name</param>
+            <returns></returns>
+        </member>
         <member name="T:LotusAPI.TimeUtils">
             <summary>
             Time utitilities
@@ -961,11 +1320,6 @@
             </summary>
             <param name="day_offset">day offset</param>
             <returns></returns>
-        </member>
-        <member name="P:LotusAPI.PropertyInfo.Name">
-            <summary>
-            Property name
-            </summary>
         </member>
         <member name="P:LotusAPI.PropertyInfo.Category">
             <summary>
@@ -987,19 +1341,24 @@
             Property browsable
             </summary>
         </member>
+        <member name="P:LotusAPI.PropertyInfo.ReadOnly">
+            <summary>
+            Readonly
+            </summary>
+        </member>
         <member name="M:LotusAPI.PropertyInfo.#ctor">
             <summary>
             Default constructor
             </summary>
         </member>
-        <member name="M:LotusAPI.PropertyInfo.#ctor(System.Reflection.PropertyInfo,System.ComponentModel.PropertyDescriptorCollection)">
+        <member name="M:LotusAPI.PropertyInfo.#ctor(System.ComponentModel.PropertyDescriptor)">
             <summary>
             Constructor
             </summary>
-            <param name="property_info">The given property info</param>
+            <param name="prop">The given property info</param>
             <param name="descriptors">The collection of property descriptor</param>
         </member>
-        <member name="M:LotusAPI.PropertyInfo.Apply(System.Reflection.PropertyInfo,System.ComponentModel.PropertyDescriptorCollection)">
+        <member name="M:LotusAPI.PropertyInfo.Apply(System.ComponentModel.PropertyDescriptor)">
             <summary>
             Apply new meta data to a property
             </summary>
@@ -1035,14 +1394,6 @@
             Apply meta data for properties in a given type
             </summary>
             <param name="objT">The object type</param>
-        </member>
-        <member name="M:LotusAPI.TypeUtils.SetBrowsable(System.Type,System.String,System.Boolean)">
-            <summary>
-            Set browsable attribute for a property in a given type
-            </summary>
-            <param name="objT">The object type</param>
-            <param name="property">The property name</param>
-            <param name="browsable">The browsable value</param>
         </member>
     </members>
 </doc>

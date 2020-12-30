@@ -57,13 +57,23 @@ Page type
 Calib pattern type
 </summary>
         </member>
+        <member name="P:LotusAPI.IAlgorithmResult.IsEmpty">
+            <summary>
+Return true if the result is not empty
+</summary>
+        </member>
         <member name="T:LotusAPI.IAlgorithmResult">
-\brief Interface for LotusAPI algorithm's result.
-
-</member>
+            <summary>
+Algorithm result interface
+</summary>
+        </member>
         <member name="T:LotusAPI.IAlgorithm">
-\brief Interface for LotusAPI algorithms.
-
+            <summary>
+Algorithm interface
+</summary>
+        </member>
+        <member name="F:LotusAPI.HW.IntelRealsenseDevice.m_ptr">
+The camera. 
 </member>
         <member name="F:LotusAPI.HW.CameraDevice.m_ptr">
 The camera. 
@@ -247,7 +257,7 @@ Decodes the given patterns.
 \return  A cv::Mat1f.
 
 </member>
-        <member name="M:Lotus.Mv.Sl3dDecoder.triangulate(cv.Mat_&lt;System.Single&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Mat_&lt;cv.Vec&lt;System.Single,0x3&gt;&gt;*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Rect_&lt;System.Int32&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+        <member name="M:Lotus.Mv.Sl3dDecoder.triangulate(cv.Mat_&lt;System.Single&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Mat_&lt;cv.Vec&lt;System.Single,0x3&gt;&gt;*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Rect_&lt;System.Int32&gt;)">
 Triangulates.
 \param           index_map   The index map.
 \param [in,out]  point_cloud The output point cloud.
@@ -322,8 +332,8 @@ Draw pose.
 \param           lw      (Optional) The lw.
 
 </member>
-        <member name="M:Lotus.Mv.CameraModel.calcImagePoints(std.vector&lt;cv.Point3_&lt;System.Single&gt;,std.allocator&lt;cv.Point3_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Matx&lt;System.Double,0x4,0x4&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
-Calculates the image points.
+        <member name="M:Lotus.Mv.CameraModel.project3DPoints(std.vector&lt;cv.Point3_&lt;System.Single&gt;,std.allocator&lt;cv.Point3_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Matx&lt;System.Double,0x4,0x4&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+Project 3d point to image plane
 \author  Do Van Phu
 \date    2/27/2017
 \param   opnts   Object points.
@@ -331,8 +341,8 @@ Calculates the image points.
 \return  The calculated image points.
 
 </member>
-        <member name="M:Lotus.Mv.CameraModel.calcObjectPoints(std.vector&lt;cv.Point_&lt;System.Single&gt;,std.allocator&lt;cv.Point_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Matx&lt;System.Double,0x4,0x4&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
-Calculates the object points for given image points.
+        <member name="M:Lotus.Mv.CameraModel.calc3DPoints(std.vector&lt;cv.Point_&lt;System.Single&gt;,std.allocator&lt;cv.Point_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Matx&lt;System.Double,0x4,0x4&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+Compute 3d points from image point and plane pose.
 \author  Do Van Phu
 \date    1/17/201bb7
 \param   ipnts   Image points.
@@ -404,21 +414,129 @@ Camera information
 \date	12/19/2016
 
 </member>
+        <member name="M:LotusAPI.Math.Utils.TransformLine(LotusAPI.Math.Line3f,LotusAPI.Math.Matrix44f)">
+            <summary>
+Transform a line
+</summary>
+            <param name="line">Input line</param>
+            <param name="H">Transformation matrix</param>
+            <returns>Transformed line</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.TransformLine(LotusAPI.Math.Line3d,LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform a line
+</summary>
+            <param name="line">Input line</param>
+            <param name="H">Transformation matrix</param>
+            <returns>Transformed line</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Project(LotusAPI.Math.Matrix44f,LotusAPI.Math.Point3f,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+Project 3d points onto image plane
+</summary>
+            <param name="mvp">MVP matrix</param>
+            <param name="vertex">3D input point</param>
+            <param name="w">Image width</param>
+            <param name="h">Image height</param>
+            <param name="flip_y">Flip y axis</param>
+            <returns>Projected point</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Project(LotusAPI.Math.Matrix44f,LotusAPI.Math.Point3f,LotusAPI.Math.Size2i,System.Boolean)">
+            <summary>
+Project 3d points onto image plane
+</summary>
+            <param name="mvp">MVP matrix</param>
+            <param name="vertex">3D input point</param>
+            <param name="imgsz">Image size</param>
+            <param name="flip_y">Flip y axis</param>
+            <returns>Projected Point</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Project(LotusAPI.Math.Matrix44f,LotusAPI.Math.Vector3f,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+Project 3d points onto image plane
+</summary>
+            <param name="mvp">MVP matrix</param>
+            <param name="vertex">3D input point</param>
+            <param name="w">Image width</param>
+            <param name="h">Image height</param>
+            <param name="flip_y">Flip y axis</param>
+            <returns>Projected point</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Project(LotusAPI.Math.Matrix44f,LotusAPI.Math.Vector3f,LotusAPI.Math.Size2i,System.Boolean)">
+            <summary>
+Project 3d points onto image plane
+</summary>
+            <param name="mvp">MVP matrix</param>
+            <param name="vertex">3D input point</param>
+            <param name="imgsz">Image size</param>
+            <param name="flip_y">Flip y axis</param>
+            <returns>Projected Point</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.ComputeAveragePose(LotusAPI.Math.Matrix44d[])">
+            <summary>
+Compute average 3D pose
+</summary>
+            <param name="poses">Array of 3D poses</param>
+            <returns>Average pose</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.EstimateTransform(LotusAPI.Math.Point3f[],LotusAPI.Math.Point3f[],System.Double@)">
+            <summary>
+Estimate rigid transformation matrix between from source points to target points
+</summary>
+            <param name="source_points">source points</param>
+            <param name="target_points">target points</param>
+            <param name="rms">RMS error</param>
+            <returns>Rigid transformation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Trans3(LotusAPI.Math.Vector2d)">
+            <summary>
+Create 2D homogeneous translation matrix (3x3)
+</summary>
+            <param name="v">Input 2D translation vector</param>
+            <returns>Homogeneous 2D translation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Trans4(LotusAPI.Math.Vector3d)">
+            <summary>
+Create 3D homogeneous translation matrix (4x4)
+</summary>
+            <param name="v">Input 3D translation vector</param>
+            <returns>Homogeneous 3D translation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.CreateTransform(LotusAPI.Math.Point3f,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f)">
+            <summary>
+Create a transform matrix matrix from user frame to current frame
+</summary>
+            <param name="org">User frame origin point</param>
+            <param name="xx">User frame xaxis point</param>
+            <param name="xy">User frame yaxis point</param>
+            <returns>UserFrame to Current Frame transformation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.CreateTransform(LotusAPI.Math.Vector3d,LotusAPI.Math.Vector3d,LotusAPI.Math.Point3f)">
+            <summary>
+Create a transform matrix matrix from user frame to current frame
+</summary>
+            <param name="ox">User frame x vector</param>
+            <param name="oy">User frame y vetor</param>
+            <param name="org">User frame origin</param>
+            <returns>UserFrame to Current Frame transformation matrix</returns>
+        </member>
         <member name="M:LotusAPI.IObject.GetInterfaces">
-Get native supported interfaces.
-
-\return The native supported interfaces
-
-</member>
+            <summary>
+Get supported interface (Lotus native interface names)
+</summary>
+            <returns>Native interfaces</returns>
+        </member>
         <member name="M:LotusAPI.IObject.GetClassName">
-Get native class name.
-
-\return The native class name
-
-</member>
+            <summary>
+Get class name
+</summary>
+            <returns>Native class name</returns>
+        </member>
         <member name="T:LotusAPI.IObject">
-\brief LotusAPI Object Interface 
-</member>
+            <summary>
+IObject interface
+</summary>
+        </member>
         <member name="T:LotusAPI.MV.ColorRGBA">
 Color RGBA
 \author  Do Van Phu
@@ -576,84 +694,207 @@ Set the registry key path for our application
             <param name="app_name">Applicaition key path, format: Key\\SubKey\\SubSubKey....</param>
         </member>
         <member name="T:LotusAPI.JsonSkipAttribute">
-\brief Attribute that marks an object/ a property as non-json-serializable
-</member>
+            <summary>
+Json skip serialization attribute
+</summary>
+        </member>
         <member name="T:LotusAPI.JsonSerializableAttribute">
-\brief Attribute that marks an object as json-serializable
-</member>
+            <summary>
+Json serializable attribute
+</summary>
+        </member>
         <member name="M:LotusAPI.Json.ToString">
-\brief Convert to json string
-
-</member>
+            <summary>
+Get string representation
+</summary>
+            <returns>String representation</returns>
+        </member>
+        <member name="M:LotusAPI.Json.WriteToMessagePack(System.String,LotusAPI.Json)">
+            <summary>
+Write to MSGPACK file
+</summary>
+            <param name="filename">file path</param>
+            <param name="node">json object</param>
+        </member>
         <member name="M:LotusAPI.Json.WriteToCBOR(System.String,LotusAPI.Json)">
-\brief Write json object to CBOR file.
-\param filename CBOR json file.
-\param node CBOR json object.
-
-</member>
+            <summary>
+Write to CBOR file
+</summary>
+            <param name="filename">file path</param>
+            <param name="node">json object</param>
+        </member>
+        <member name="M:LotusAPI.Json.LoadFromMessagePack(System.String)">
+            <summary>
+Load from MSGPACK file
+</summary>
+            <param name="filename">file path</param>
+            <returns>json object</returns>
+        </member>
         <member name="M:LotusAPI.Json.LoadFromCBOR(System.String)">
-\brief Load json object from CBOR file.
-\param filename CBOR json file.
-
-</member>
+            <summary>
+Load from CBOR file
+</summary>
+            <param name="filename">file path</param>
+            <returns>Json object</returns>
+        </member>
         <member name="M:LotusAPI.Json.WriteToFile(System.String,LotusAPI.Json)">
-\brief Write json object to file.
-\param filename json file.
-\param node json object.
-
-</member>
+            <summary>
+Write json object to file
+</summary>
+            <param name="filename">file path</param>
+            <param name="node">Json object</param>
+        </member>
         <member name="M:LotusAPI.Json.ReadFromFile(System.String)">
-\brief Read json object from file.
-\param filename json file.
-
-</member>
+            <summary>
+Read Json object from file
+</summary>
+            <param name="filename">file path</param>
+            <returns>Json object</returns>
+        </member>
         <member name="M:LotusAPI.Json.FromString(System.String)">
-\brief Parse json object from string.
-\param jsonstr json string.
-
-</member>
+            <summary>
+Convert json string to json object
+</summary>
+            <param name="jsonstr">json string</param>
+            <returns>Json object</returns>
+        </member>
+        <member name="M:LotusAPI.Json.ToMessagePack(LotusAPI.Json)">
+            <summary>
+Convert Json object to MSGPACK byte array
+</summary>
+            <param name="node">Json object</param>
+            <returns>MSGPACK byte array</returns>
+        </member>
         <member name="M:LotusAPI.Json.ToCBOR(LotusAPI.Json)">
-\brief Convert json object to CBOR byte array.
-\param node json object.
-
-</member>
+            <summary>
+Convert Json object to CBOR byte array
+</summary>
+            <param name="node">Json object</param>
+            <returns>CBOR byte array</returns>
+        </member>
+        <member name="P:LotusAPI.Json.MessagePack">
+            <summary>
+Convert to MSGPACK byte array
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.CBOR">
-\brief Get the CBOR representation.
-
-</member>
+            <summary>
+Convert to CBOR byte array
+</summary>
+        </member>
+        <member name="M:LotusAPI.Json.FromMessagePack(System.Byte[])">
+            <summary>
+Parse from MSGPACK byte array
+</summary>
+            <param name="msgpack">MSGPACK byte array</param>
+            <returns>Json object</returns>
+        </member>
         <member name="M:LotusAPI.Json.FromCBOR(System.Byte[])">
-\brief Parse an CBOR byte array to Json object.
-\param cbor CBOR byte array.
-
-</member>
+            <summary>
+Parse from CBOR byte array
+</summary>
+            <param name="cbor">CBOR byte array</param>
+            <returns>Json object</returns>
+        </member>
         <member name="M:LotusAPI.Json.ParseString(System.String)">
-\brief Parse json object from a string.
-\param jsonstr json string.
-
-</member>
-        <member name="M:LotusAPI.Json.LoadCBOR(System.String)">
-\brief Load Json object from a CBOR file.
-\param filename CBOR file to load.
-
-</member>
-        <member name="M:LotusAPI.Json.SaveCBOR(System.String)">
-\brief Save Json object to a CBOR file.
-\param filename CBOR file to save.
-
-</member>
+            <summary>
+Parse from json string
+</summary>
+            <param name="jsonstr">Json string</param>
+        </member>
         <member name="M:LotusAPI.Json.Load(System.String)">
-\brief Load json object from a file.
-\param filename file to load.
-
-</member>
+            <summary>
+Load from file
+</summary>
+            <param name="filename">File path</param>
+        </member>
         <member name="M:LotusAPI.Json.Save(System.String)">
-\brief Save Json object to a file.
-\param filename file to save.
-
-</member>
+            <summary>
+Save to file
+</summary>
+            <param name="filename">File path</param>
+        </member>
+        <member name="M:LotusAPI.Json.LoadMessagePack(System.String)">
+            <summary>
+Load from MSGPACK file
+</summary>
+            <param name="filename">file path</param>
+        </member>
+        <member name="M:LotusAPI.Json.LoadCBOR(System.String)">
+            <summary>
+Load from CBOR file
+</summary>
+            <param name="filename">file path</param>
+        </member>
+        <member name="M:LotusAPI.Json.SaveMessagePack(System.String)">
+            <summary>
+Save to file with MSGPACK format
+</summary>
+            <param name="filename">file path</param>
+        </member>
+        <member name="M:LotusAPI.Json.SaveCBOR(System.String)">
+            <summary>
+Save to file with CBOR format
+</summary>
+            <param name="filename">file path</param>
+        </member>
+        <member name="M:LotusAPI.Json.LoadJSON(System.String)">
+            <summary>
+Load from file
+</summary>
+            <param name="filename">file path</param>
+        </member>
+        <member name="M:LotusAPI.Json.SaveJSON(System.String)">
+            <summary>
+Save to a file
+</summary>
+            <param name="filename">file path</param>
+        </member>
+        <member name="P:LotusAPI.Json.Parent">
+            <summary>
+Parent node
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.Path">
-\brief Json node path 
-</member>
+            <summary>
+Current path
+</summary>
+        </member>
+        <member name="M:LotusAPI.Json.ToArray``1">
+            <summary>
+Convert from json to array of objects
+</summary>
+            <typeparam name="T">Object type</typeparam>
+            <returns>Array of objects</returns>
+        </member>
+        <member name="M:LotusAPI.Json.FromArray``1(``0[])">
+            <summary>
+Convert from array of objects to Json
+</summary>
+            <typeparam name="T">Object type</typeparam>
+        </member>
+        <member name="M:LotusAPI.Json.From``1(``0)">
+            <summary>
+Convert from object to Json
+</summary>
+            <typeparam name="T">Object type</typeparam>
+            <param name="obj">The object</param>
+        </member>
+        <member name="M:LotusAPI.Json.To``1(``0)">
+            <summary>
+Convert json node to object
+</summary>
+            <typeparam name="T">Object type</typeparam>
+            <param name="default_value">Default value</param>
+            <returns>The object</returns>
+        </member>
+        <member name="M:LotusAPI.Json.To``1">
+            <summary>
+Convert Json node to object
+</summary>
+            <typeparam name="T">Object type</typeparam>
+            <returns>The object</returns>
+        </member>
         <member name="M:LotusAPI.Json.TryGetBool(System.String,System.Boolean@)">
 \brief Try get a bool.
 \param key child key
@@ -698,111 +939,145 @@ Set the registry key path for our application
 
 </member>
         <member name="M:LotusAPI.Json.TryGet(System.String,LotusAPI.Json@)">
-\brief Try get a child.
-\param key child key
-\param outvalue output json object
-\return True if succeed
-
-</member>
+            <summary>
+Try to get a subnode with a given key
+</summary>
+            <param name="key">Subnode key</param>
+            <param name="outvalue">output node</param>
+            <returns>True if successful</returns>
+        </member>
         <member name="P:LotusAPI.Json.default(System.String)">
-\brief Get child with key.
-
-</member>
+            <summary>
+Get sub-node by key
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.default(System.Int32)">
-\brief Get child at index.
-
-</member>
+            <summary>
+Get sub-node by index
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.Count">
-\brief Return number of childs.
-
-</member>
+            <summary>
+Get number of sub-nodes
+</summary>
+        </member>
         <member name="M:LotusAPI.Json.Erase(System.String)">
-\brief Remove a child with given key.
-\param key child key
-
-</member>
+            <summary>
+Remove a sub-node with given key
+</summary>
+            <param name="key">Sub-node key</param>
+        </member>
         <member name="M:LotusAPI.Json.Get(System.String)">
-\brief Get child json object in a path.
-\param path path to child
-
-</member>
+            <summary>
+Get sub-node from given path
+</summary>
+            <param name="path">Path/to/sub/node</param>
+            <returns>Sub-node</returns>
+        </member>
         <member name="M:LotusAPI.Json.Set(LotusAPI.Json)">
-\brief Set value.
-\param value value
-
-</member>
+            <summary>
+Set contents
+</summary>
+            <param name="value">Contents</param>
+        </member>
         <member name="M:LotusAPI.Json.Set(System.String,LotusAPI.Json)">
-\brief Set child object in a given path.
-\param path path to child
-\param value child value
-
-</member>
+            <summary>
+Set sub-node contents
+</summary>
+            <param name="path">Path to sub-node (path/to/sub/node)</param>
+            <param name="value" />
+        </member>
         <member name="M:LotusAPI.Json.Contains(System.String)">
-\brief Return true of json object contains a given key.
-\param key child key
-
-</member>
+            <summary>
+Check of the current node contains a key
+</summary>
+            <param name="key">Sub node key</param>
+            <returns>True if key exists</returns>
+        </member>
         <member name="M:LotusAPI.Json.Null">
-\brief Return a null json object.
-
-</member>
+            <summary>
+Create a null json object
+</summary>
+            <returns>Null json object</returns>
+        </member>
         <member name="M:LotusAPI.Json.CreateNull(System.String)">
-\brief Create a null child.
-\param child key
-
-</member>
+            <summary>
+Create null sub node
+</summary>
+            <param name="key">sub-node key name</param>
+        </member>
         <member name="M:LotusAPI.Json.GetKeys">
-\brief Get a String array of child objects keys.
-
-</member>
+            <summary>
+Get list of keys
+</summary>
+            <returns>List of keys</returns>
+        </member>
         <member name="M:LotusAPI.Json.GetObjects">
-\brief Get a Key-Value dictionary collection of child objects.
-
-</member>
+            <summary>
+Get a dictionary of key-json_node
+</summary>
+            <returns>Key-json_node dictionary</returns>
+        </member>
         <member name="P:LotusAPI.Json.IsPrimitive">
-\brief Return true if json object is a primitive type.
-
-</member>
+            <summary>
+Check if Json node contains a primitive value 
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsStructured">
-\brief Return true if json object is a structured object (object or array).
-
-</member>
+            <summary>
+Check if Json node contains a structured object
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsString">
-\brief Return true if json object is a String.
-
-</member>
+            <summary>
+Check if Json node contains a string value
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsBool">
-\brief Return true if json object is a bool.
-
-</member>
+            <summary>
+Check if Json node contains a bool value
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsFloat">
-\brief Return true if json object is a float.
-
-</member>
+            <summary>
+Check if Json node contains a float value
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsDouble">
-\brief Return true if json object is a double.
-
-</member>
+            <summary>
+Check if Json node contains a double value
+</summary>
+        </member>
+        <member name="P:LotusAPI.Json.IsInt32">
+            <summary>
+Check if Json node contains an int32 value
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsInt">
-\brief Return true if json object is an int32.
-
-</member>
+            <summary>
+Check if Json node contains an int32 value
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsInt64">
-\brief Return true if json object is an int64.
-
-</member>
+            <summary>
+Check if Json node contains an int64 value
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsArray">
-\brief Return true if json object is an array.
-
-</member>
+            <summary>
+Check if Json node contains an array
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsObject">
-\brief Return true if json object is an object.
-
-</member>
+            <summary>
+Check if Json node contains an object
+</summary>
+        </member>
         <member name="P:LotusAPI.Json.IsNull">
-\brief Return true if json object is null.
-
-</member>
+            <summary>
+Check if Json node is null (contains no values)
+</summary>
+        </member>
         <member name="M:LotusAPI.Json.GetStringArray(System.String[])">
 \brief Get String-array. If json node is null, return default_value.
 \param default_value default value
@@ -959,77 +1234,77 @@ Set the registry key path for our application
 
 </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.String[])~LotusAPI.Json">
-Convert an array of String values to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from string array value
+</summary>
+            <param name="arr">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Double[])~LotusAPI.Json">
-Convert an array of double values to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from double array value
+</summary>
+            <param name="arr">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Single[])~LotusAPI.Json">
-Convert an array of float values to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from float array value
+</summary>
+            <param name="arr">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Int64[])~LotusAPI.Json">
-Convert an array of int64 values to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from int64 array value
+</summary>
+            <param name="arr">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Int32[])~LotusAPI.Json">
-Convert an array of int32 values to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from int32 array value
+</summary>
+            <param name="arr">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Boolean[])~LotusAPI.Json">
-Convert an array of bool values to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from bool array value
+</summary>
+            <param name="arr">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.String)~LotusAPI.Json">
-Convert a String value to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from string value
+</summary>
+            <param name="value">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Double)~LotusAPI.Json">
-Convert a double value to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from double value
+</summary>
+            <param name="value">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Single)~LotusAPI.Json">
-Convert a float value to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from float value
+</summary>
+            <param name="value">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Int64)~LotusAPI.Json">
-Convert a int64 value to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from int64 value
+</summary>
+            <param name="value">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Int32)~LotusAPI.Json">
-Convert a int32 value to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from int32 value
+</summary>
+            <param name="value">Value</param>
+        </member>
         <member name="M:LotusAPI.Json.op_Implicit(System.Boolean)~LotusAPI.Json">
-Convert a bool value to Json object.
-\param value The value
-\return Json object
-
-</member>
+            <summary>
+Construct Json object from bool value
+</summary>
+            <param name="value">Value</param>
+        </member>
         <member name="T:LotusAPI.Json.JsonEnumerator">
 \brief Json enumerator.
 
@@ -1053,28 +1328,124 @@ j.Save("D:/data.json");
 @endcode
 </example></summary>
         </member>
+        <member name="M:LotusAPI.IJsonSerializable.Read(LotusAPI.Json)">
+            <summary>
+Read content from json node
+</summary>
+            <param name="node">Json node</param>
+        </member>
+        <member name="M:LotusAPI.IJsonSerializable.Write(LotusAPI.Json)">
+            <summary>
+Write contents to json node
+</summary>
+            <param name="node">Json node</param>
+        </member>
         <member name="T:LotusAPI.IJsonSerializable">
             <summary>
 Interface for Json serializable object
 </summary>
         </member>
         <member name="M:LotusAPI.FileLogger.#ctor(System.String)">
-Constructor.
-\brief 
-\param path The path to the log file.
-
-</member>
+            <summary>
+Construct file logger object
+</summary>
+            <param name="path">File path</param>
+        </member>
         <member name="T:LotusAPI.FileLogger">
-\private This class help write everything logged with Logger's methods to a log file.
-
-</member>
+            <summary>
+File logger that write all logs to a specified file
+</summary>
+        </member>
+        <member name="M:LotusAPI.Logger.StartLogTask">
+            <summary>
+Start logger task
+</summary>
+        </member>
+        <member name="P:LotusAPI.Logger.EnableDevDebug">
+            <summary>
+Enable log to VisualStudio Output
+</summary>
+        </member>
+        <member name="M:LotusAPI.Logger.Log(LotusAPI.LogLevel,System.String)">
+            <summary>
+Log a message with specified log level
+</summary>
+            <param name="level">log level</param>
+            <param name="message">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Info(System.String)">
+            <summary>
+Log an info message
+</summary>
+            <param name="msg">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Trace(System.String)">
+            <summary>
+Log a trace message
+</summary>
+            <param name="msg">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Debug(System.String)">
+            <summary>
+Log a debug message
+</summary>
+            <param name="msg">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Warn(System.String)">
+            <summary>
+Log a warning message
+</summary>
+            <param name="msg">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Fatal(System.String)">
+            <summary>
+Log a fatal error message
+</summary>
+            <param name="msg">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Error(System.String)">
+            <summary>
+Log an error message
+</summary>
+            <param name="msg">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Log(System.String)">
+            <summary>
+Log a message
+</summary>
+            <param name="msg">message</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Clear">
+            <summary>
+Unregister all loggers
+</summary>
+        </member>
+        <member name="M:LotusAPI.Logger.Remove(LotusAPI.ILogger)">
+            <summary>
+Unregister a logger
+</summary>
+            <param name="logger">The logger</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Add(LotusAPI.ILogger)">
+            <summary>
+Register a logger with all log level
+</summary>
+            <param name="logger">The logger</param>
+        </member>
+        <member name="M:LotusAPI.Logger.Add(LotusAPI.ILogger,LotusAPI.LogLevel)">
+            <summary>
+Register a logger
+</summary>
+            <param name="logger">The logger</param>
+            <param name="level">Log levels</param>
+        </member>
         <member name="M:Lotus.Net.TcpClient.getClassName">
 IObject
 </member>
-        <member name="F:Lotus.Mv.GObject.Layer.mat">
+        <member name="F:Lotus.Mv.PlyFile.Property.name">
 FIELDS
 </member>
-        <member name="F:Lotus.Mv.PlyFile.Property.name">
+        <member name="F:Lotus.Mv.GObject.Layer.mat">
 FIELDS
 </member>
         <member name="T:Lotus.Hw.IProjector.Key">
