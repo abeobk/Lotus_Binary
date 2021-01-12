@@ -89,6 +89,20 @@ Default constructor.
 \date	12/19/2016
 
 </member>
+        <member name="M:Lotus.Mv.smoothNormal(Lotus.Mv.GObject*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Single,std.vector&lt;System.UInt32,std.allocator&lt;System.UInt32&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+Smooth normal for a pointcloud.
+\param cloud: input pointcloud
+\param radius: neighbour radius
+\param samples (optional): only re-compute for given samples
+
+</member>
+        <member name="M:Lotus.Mv.recomputeNormal(Lotus.Mv.GObject*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Single,std.vector&lt;System.UInt32,std.allocator&lt;System.UInt32&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+Recompute normal for a pointcloud using plane fitting.
+\param cloud: input pointcloud
+\param radius: neighbour radius
+\param samples (optional): only re-compute for given samples
+
+</member>
         <member name="M:Lotus.Mv.generate_phase_pattern(cv.Size_&lt;System.Int32&gt;*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32,System.Int32,System.Single,System.Boolean)">
 Generates a phase pattern.
 \author Do Van Phu

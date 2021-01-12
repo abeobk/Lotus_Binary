@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LotusAPI.HW</name>
+    </assembly>
+    <members>
+        <member name="P:LotusAPI.HW.AdvantechDaq.Started">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.CameraCaptureThread.ResumeRestart">
+            <summary>
+            Restart capture with t=0
+            </summary>
+        </member>
+        <member name="F:LotusAPI.HW.Dialogs.FormCameraSelector.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.Dialogs.FormCameraSelector.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.HW.Dialogs.FormCameraSelector.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.HW.Dialogs.FormMultiCamera.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.Dialogs.FormMultiCamera.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.HW.Dialogs.FormMultiCamera.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.HW.Dialogs.FormPinMapEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.Dialogs.FormPinMapEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.HW.Dialogs.FormPinMapEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LotusAPI.HW.IPLC">
+            <summary>
+            Write IO
+            </summary>
+        </member>
+        <member name="T:LotusAPI.HW.IPLC.MemoryBlock">
+            <summary>
+            Memory block
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.Item(System.Int32)">
+            <summary>
+            Get byte at given index
+            </summary>
+            <param name="idx">index</param>
+            <returns>byte value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.op_Equality(LotusAPI.HW.IPLC.MemoryBlock,LotusAPI.HW.IPLC.MemoryBlock)">
+            <summary>
+            Compare 2 memory block contents
+            </summary>
+            <param name="blk1">Memory block 1</param>
+            <param name="blk2">Memory block 2</param>
+            <returns>true if equal</returns>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.BaseAddress">
+            <summary>
+            Base adress
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.Length">
+            <summary>
+            Memory block length
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.Setting">
+            <summary>
+            Setting object
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.Invalidate">
+            <summary>
+            Update setttings 
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.IsConnected">
+            <summary>
+            Check if plc is connected
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.Connect">
+            <summary>
+            Connect to PLC
+            </summary>
+            <param name="connection_string"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.Disconnect">
+            <summary>
+            Disconnect
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.ReadDI">
+            <summary>
+            Batch read
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.ReadBit(System.Int32)">
+            <summary>
+            Read bit
+            </summary>
+            <param name="bit_index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.WriteDO(System.UInt32)">
+            <summary>
+            Batch write
+            </summary>
+            <param name="values"></param>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.WriteDOBit(System.Int32,System.Boolean)">
+            <summary>
+            Write bit
+            </summary>
+            <param name="bit_index"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.ReadBlock(LotusAPI.HW.IPLC.MemoryBlock)">
+            <summary>
+            Read memory block
+            </summary>
+            <param name="block">block to read</param>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.WriteBlock(LotusAPI.HW.IPLC.MemoryBlock)">
+            <summary>
+            Write memory block
+            </summary>
+            <param name="block">block to write</param>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.Start">
+            <summary>
+            Start polling
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.Stop">
+            <summary>
+            Stop polling
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.Pause">
+            <summary>
+            Pasue
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.Resume">
+            <summary>
+            Resume
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.WaitUntilPaused">
+            <summary>
+            Wait until paused
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.Int32)">
+            <summary>
+            Get pin info
+            </summary>
+            <param name="func">Pin function</param>
+            <param name="index">Pin index</param>
+            <returns></returns>
+        </member>
+        <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.String)">
+            <summary>
+            Get pin info
+            </summary>
+            <param name="func">Pin function</param>
+            <param name="name">Pin name</param>
+            <returns></returns>
+        </member>
+        <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinInfo)">
+            <summary>
+            Get pin info that match a pin
+            </summary>
+            <param name="pi">pin info</param>
+            <returns>matched pin info</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.GetPinTable(LotusAPI.HW.PinFunc,System.Boolean)">
+            <summary>
+            Get pin table for given function
+            </summary>
+            <param name="func">Pin function</param>
+            <returns>Pin table</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.Add(LotusAPI.HW.PinInfo)">
+            <summary>
+            Add a pin
+            </summary>
+            <param name="pin">The pin info</param>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.Clear">
+            <summary>
+            Clear pin map
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.AddRange(LotusAPI.HW.PinInfo[])">
+            <summary>
+            Add some pins
+            </summary>
+            <param name="pins">Pin info array</param>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.RemoveAt(System.Int32)">
+            <summary>
+            Remove pin at given index
+            </summary>
+            <param name="idx">index</param>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.ToArray">
+            <summary>
+            Get pin array
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.Write(LotusAPI.Json)">
+            <summary>
+            Write to json node
+            </summary>
+            <param name="node">json node</param>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.Read(LotusAPI.Json)">
+            <summary>
+            Read from json node
+            </summary>
+            <param name="node">json node</param>
+        </member>
+        <member name="F:LotusAPI.HW.PLC.FormMemoryBlockListEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.PLC.FormMemoryBlockListEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.HW.PLC.FormMemoryBlockListEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.HW.UI.IOPinmapView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.UI.IOPinmapView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.HW.UI.IOPinmapView.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
