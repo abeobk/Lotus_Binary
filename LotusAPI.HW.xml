@@ -192,7 +192,7 @@
         </member>
         <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.Int32)">
             <summary>
-            Get pin info
+            Get pin by function and index
             </summary>
             <param name="func">Pin function</param>
             <param name="index">Pin index</param>
@@ -200,18 +200,18 @@
         </member>
         <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.String)">
             <summary>
-            Get pin info
+            Get pin by function and name
             </summary>
             <param name="func">Pin function</param>
             <param name="name">Pin name</param>
             <returns></returns>
         </member>
-        <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinInfo)">
+        <member name="P:LotusAPI.HW.PinMap.Item(System.String)">
             <summary>
-            Get pin info that match a pin
+            Get pin by name
             </summary>
-            <param name="pi">pin info</param>
-            <returns>matched pin info</returns>
+            <param name="name"></param>
+            <returns></returns>
         </member>
         <member name="M:LotusAPI.HW.PinMap.GetPinTable(LotusAPI.HW.PinFunc,System.Boolean)">
             <summary>
