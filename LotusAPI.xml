@@ -75,6 +75,20 @@ Algorithm interface
         <member name="F:LotusAPI.HW.IntelRealsenseDevice.m_ptr">
 The camera. 
 </member>
+        <member name="M:LotusAPI.MV.Pointcloud.Extract(LotusAPI.MV.Image)">
+            <summary>
+Extract organized pointcloud by mask
+</summary>
+            <param name="mask">selected points</param>
+            <returns>selected pointcloud</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.Extract(System.UInt32[])">
+            <summary>
+Extract pointlcoud by indices
+</summary>
+            <param name="samples">selected points</param>
+            <returns>selected pointcloud</returns>
+        </member>
         <member name="F:LotusAPI.HW.CameraDevice.m_ptr">
 The camera. 
 </member>
