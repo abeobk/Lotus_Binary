@@ -148,10 +148,17 @@
         </member>
         <member name="M:LotusAPI.HW.IPLC.WriteDOBit(System.Int32,System.Boolean)">
             <summary>
-            Write bit
+            Write DO bit
             </summary>
-            <param name="bit_index"></param>
-            <param name="value"></param>
+            <param name="bit_index">output pin index</param>
+            <param name="value">value</param>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.WriteDOBit(LotusAPI.HW.PinInfo,System.Boolean)">
+            <summary>
+            Write DO bit
+            </summary>
+            <param name="pin">output pin</param>
+            <param name="value">value</param>
         </member>
         <member name="M:LotusAPI.HW.IPLC.ReadBlock(LotusAPI.HW.IPLC.MemoryBlock)">
             <summary>

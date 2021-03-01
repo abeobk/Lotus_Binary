@@ -556,6 +556,12 @@
             </summary>
             <param name="network_stream">The network stream</param>
         </member>
+        <member name="M:LotusAPI.Net.PacketBuilder.Send(System.IO.Ports.SerialPort)">
+            <summary>
+            Send packet through serial port
+            </summary>
+            <param name="sp">serial port</param>
+        </member>
         <member name="M:LotusAPI.Net.PacketBuilder.ToString">
             <summary>
             Convert to hex string
