@@ -1401,6 +1401,10 @@ Log a message with specified log level
             <param name="level">log level</param>
             <param name="message">message</param>
         </member>
+        <member name="M:LotusAPI.Logger.SetLogTimeFormat(LotusAPI.LogTimeFormat)">
+            <summary />
+            <param name="format" />
+        </member>
         <member name="M:LotusAPI.Logger.Info(System.String)">
             <summary>
 Log an info message
