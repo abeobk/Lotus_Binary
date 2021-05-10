@@ -4,6 +4,12 @@
         "LotusAPI"
     </assembly>
     <members>
+        <member name="M:LotusAPI.MV.AbeoScan.LoadProfile(System.String)">
+            <summary>
+Load profile from scanner memory
+</summary>
+            <param name="profile_name">Profile name</param>
+        </member>
         <member name="P:LotusAPI.MV.CalibKeyPoint.IsKey">
             <summary>
 Is key point
@@ -442,6 +448,31 @@ Camera information
 \date	12/19/2016
 
 </member>
+        <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point3f[],System.Int32)">
+            <summary>
+Smooth 3D points with gaussian kernel
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point3f[],System.Int32,System.Double)">
+            <summary>
+Smooth 3D points with gaussian kernel
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point2f[],System.Int32)">
+            <summary>
+Smooth 3D points with gaussian kernel
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point2f[],System.Int32,System.Double)">
+            <summary>
+Smooth 3D points with gaussian kernel
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.TransformPoints(LotusAPI.Math.Point3f[],LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform 3D points
+</summary>
+        </member>
         <member name="M:LotusAPI.Math.Utils.TransformLine(LotusAPI.Math.Line3f,LotusAPI.Math.Matrix44f)">
             <summary>
 Transform a line
@@ -547,6 +578,159 @@ Create a transform matrix matrix from user frame to current frame
             <param name="oy">User frame y vetor</param>
             <param name="org">User frame origin</param>
             <returns>UserFrame to Current Frame transformation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.EuleurXYZ_Deg(LotusAPI.Math.Matrix33d)">
+            <summary>
+Decompose rotation matix to Euleur angle in XYZ order
+</summary>
+            <param name="R">Input rotation matrix</param>
+            <returns>XYZ in degrees</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.EuleurZYZ_Deg(LotusAPI.Math.Matrix33d)">
+            <summary>
+Decompose rotation matix to Euleur angle in ZYZ order
+</summary>
+            <param name="R">Input rotation matrix</param>
+            <returns>ZYZ in degrees</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.EuleurZYX_Deg(LotusAPI.Math.Matrix33d)">
+            <summary>
+Decompose rotation matix to Euleur angle in ZYX order
+</summary>
+            <param name="R">Input rotation matrix</param>
+            <returns>ZYX in degrees</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.EuleurXYZ(LotusAPI.Math.Matrix33d)">
+            <summary>
+Decompose rotation matix to Euleur angle in XYZ order
+</summary>
+            <param name="R">Input rotation matrix</param>
+            <returns>XYZ in radians</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.EuleurZYZ(LotusAPI.Math.Matrix33d)">
+            <summary>
+Decompose rotation matix to Euleur angle in ZYZ order
+</summary>
+            <param name="R">Input rotation matrix</param>
+            <returns>ZYZ in radians</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.EuleurZYX(LotusAPI.Math.Matrix33d)">
+            <summary>
+Decompose rotation matix to Euleur angle in ZYX order
+</summary>
+            <param name="R">Input rotation matrix</param>
+            <returns>ZYX in radians</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Rvect(LotusAPI.Math.Matrix33d)">
+            <summary>
+Compute axis angle vector from Rotation matrix
+</summary>
+            <param name="R">Input rotation matrix</param>
+            <returns>Axis angle vector (with module is the angle)</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Skew3(LotusAPI.Math.Vector3d)">
+            <summary>
+Compute skew matrix
+</summary>
+            <param name="v">Input vector</param>
+            <returns>Skew matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.RotAlign(LotusAPI.Math.Vector3d,LotusAPI.Math.Vector3d)">
+            <summary>
+Compute rotation matrix that aligns 2 vectors
+</summary>
+            <param name="unit_v1">Source vector</param>
+            <param name="unit_v2">Target vector</param>
+            <returns>Rotation matrix R that transform v1-&gt;v2, i.e: v2 = R*v1</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Rot3_Deg(LotusAPI.Math.Vector3d,System.Double)">
+            <summary>
+Compute rotation matrix from axis angle
+</summary>
+            <param name="axis">Rotation axis</param>
+            <param name="angle_deg">Rotation angle in degree</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Rot3(LotusAPI.Math.Vector3d,LotusAPI.Math.Vector3d,LotusAPI.Math.Vector3d)">
+            <summary>
+Compute rotation matrix from current frame to new frame given new frame axis vectors
+New frame axis vectors must be units
+</summary>
+            <param name="x_axis">New frame x axis</param>
+            <param name="y_axis">New frame y axis</param>
+            <param name="z_axis">New frame z axis</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Rot3(LotusAPI.Math.Vector3d,System.Double)">
+            <summary>
+Compute rotation matrix from axis angle
+</summary>
+            <param name="axis">Rotation axis</param>
+            <param name="angle_rad">Rotation angle in radian</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.RotZ_Deg(System.Double)">
+            <summary>
+Compute rotation matrix about Z axis
+</summary>
+            <param name="rz_deg">rotation angle in degree</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.RotY_Deg(System.Double)">
+            <summary>
+Compute rotation matrix about Y axis
+</summary>
+            <param name="ry_deg">rotation angle in degree</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.RotX_Deg(System.Double)">
+            <summary>
+Compute rotation matrix about X axis
+</summary>
+            <param name="rx_deg">rotation angle in degree</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.RotZ(System.Double)">
+            <summary>
+Compute rotation matrix about Z axis
+</summary>
+            <param name="rz_rad">rotation angle in radian</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.RotY(System.Double)">
+            <summary>
+Compute rotation matrix about Y axis
+</summary>
+            <param name="ry_rad">rotation angle in radian</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.RotX(System.Double)">
+            <summary>
+Compute rotation matrix about X axis
+</summary>
+            <param name="rx_rad">rotation angle in radian</param>
+            <returns>Rotation matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.GetLogR_SO3(LotusAPI.Math.Matrix33d)">
+            <summary>
+Compute logarithm of rotation matrix R in SO3
+</summary>
+            <param name="R">SO3 rotation matrix</param>
+            <returns>log(R)</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Deg2Rad(System.Double)">
+            <summary>
+Convert angle from degree to radian
+</summary>
+            <param name="angle_deg">input angle in degree</param>
+            <returns>output angle in radian</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Rad2Deg(System.Double)">
+            <summary>
+Convert angle from radian to degree
+</summary>
+            <param name="angle_rad">input angle in radian</param>
+            <returns>output angle in degree</returns>
         </member>
         <member name="M:LotusAPI.IObject.GetInterfaces">
             <summary>

@@ -404,5 +404,38 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:LotusAPI.HW.Utils.ApplyScannerSetting(LotusAPI.MV.AbeoScan,LotusAPI.Json,System.String)">
+            <summary>
+            Apply a Scanner profile from json data
+            </summary>
+            <param name="scanner">AbeoScan 3D scanner</param>
+            <param name="json_node">Scanner setting file</param>
+            <param name="profile">Profile name</param>
+        </member>
+        <member name="M:LotusAPI.HW.Utils.ApplyScannerProfile(LotusAPI.MV.AbeoScan,System.String)">
+            <summary>
+            Apply a profile from scanner memory
+            </summary>
+            <param name="scanner">scanner</param>
+            <param name="profile_name">profile name</param>
+        </member>
+        <member name="M:LotusAPI.HW.Utils.ConnectScanner(System.String,System.String)">
+            <summary>
+            Connect AbeoScan 3D scanner from device info file, and apply profile from scanner memory.
+            This function throw if failed.
+            </summary>
+            <param name="info_file">Scanner info file</param>
+            <param name="profile">Scan profile</param>
+            <returns>Connected scanner</returns>
+        </member>
+        <member name="M:LotusAPI.HW.Utils.ConnectScannerAsync(System.String,System.String)">
+            <summary>
+            Asynchronously connect AbeoScan 3D scanner from device info file, and apply profile from scanner memory.
+            This function throw if failed.
+            </summary>
+            <param name="info_file">Scanner info file</param>
+            <param name="profile">Scan profile</param>
+            <returns>Connected scanner</returns>
+        </member>
     </members>
 </doc>
