@@ -387,6 +387,19 @@
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="M:LotusAPI.HW.UI.IOPinmapView.UpdatePin(LotusAPI.HW.PinInfo)">
+            <summary>
+            Deactivate all pins and activate selected pin (thread safe)
+            </summary>
+            <param name="pin"></param>
+        </member>
+        <member name="M:LotusAPI.HW.UI.IOPinmapView.UpdatePin(LotusAPI.HW.PinInfo,System.Boolean)">
+            <summary>
+            Update a single pin while keeping others states (thread safe)
+            </summary>
+            <param name="pin"></param>
+            <param name="value"></param>
+        </member>
         <member name="F:LotusAPI.HW.UI.IOPinmapView.components">
             <summary> 
             Required designer variable.
