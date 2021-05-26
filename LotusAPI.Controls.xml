@@ -110,6 +110,30 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:LotusAPI.Controls.Dialogs.FormImageView.ShowImageInDir(System.String,System.String)">
+            <summary>
+             Show images in directory
+            </summary>
+            <param name="dir">directory</param>
+            <param name="ext">extension filter (ex: *.png)</param>
+        </member>
+        <member name="F:LotusAPI.Controls.Dialogs.FormImageView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Controls.Dialogs.FormImageView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Controls.Dialogs.FormImageView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:LotusAPI.Controls.FormJsonNodePicker.components">
             <summary>
             Required designer variable.
