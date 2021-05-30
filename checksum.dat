@@ -40,8 +40,8 @@ f74635ac6e60d47a3793d1db6949f0bb24896dfe *./lotus_hw_intel_rs_v140_x64.dll
 71f36cebd3947323b118e0de6f8d8a035a54aa7a *./lotus_hw_ptgrey_v140_x64.dll
 fedf6ce35b489af48192d320878984ad3d969d5a *./lotus_hw_ti_v140_x64.dll
 8142b0b0abf36f84711c10438a24eb7bb0b41c83 *./lotus_ml_v140_x64.dll
-ae0e6c85178185e988e508ab70d7674aebc2cdff *./lotus_mv_v140_x64.dll
-b9b802aabfbc76359b810f03525335b139b3c5d0 *./lotus_sim_v140_x64.dll
+f51bec992035948afbd980fed1250dea796db99d *./lotus_mv_v140_x64.dll
+4b32c761fc94646ad80be28d5ca138e8f9ec994c *./lotus_sim_v140_x64.dll
 69a99b6664db378b492aa2ab9765516296ae9d09 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
