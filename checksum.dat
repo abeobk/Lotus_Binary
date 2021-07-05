@@ -7,6 +7,7 @@ d12313f9355e66f452653aad8dd6ef603ee6569f *./AbeoMaskEditor.exe
 123fe310d1d035932b65fac5006209c4dcd692bf *./EntityFramework.dll
 1ce2ee890043ac1e150a0d8f1732face313b20f7 *./FastColoredTextBox.dll
 506b1bcf5de5edf1b44c7db4bfaed5ced1835c0e *./firmware/AbeoScan_V4.2.img
+350b963bbda8e08f1f8837b4f872ff8b8d9f280c *./firmware/lc4500_server_armhf_timeout30
 68a08633dfdb2faffa7db82507752f1620556efd *./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7 *./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89 *./ftcserco.dll
@@ -46,7 +47,7 @@ b3955f3bd449d8f47090b76f27cf30c93e8692fa *./lotus_gl_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
 03147574c2bba76c1c3a568e7b11867d8a884d9a *./opencv_world410.dll
-bc9f6b845cac8111a36facd77c92ce7a55d64b5c *./push.sh
+146d5faafe7896396bb2eca9aca34b2c45a6b71c *./push.sh
 d6eda0692777c42180b38aeb3c5ea9af9fc3739f *./realsense2.dll
 f897883f02ee394cb808a1ee90aa3e78aecaa372 *./RobotController.exe
 001fea4b359e49b602cde4c42ffa895522dcf115 *./S7.Net.dll
