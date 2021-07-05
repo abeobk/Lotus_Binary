@@ -6,7 +6,7 @@ d12313f9355e66f452653aad8dd6ef603ee6569f *./AbeoMaskEditor.exe
 58f48766d9ed8a8b00d05416d11c7c19b266a02c *./ATMC.UIControls.dll
 123fe310d1d035932b65fac5006209c4dcd692bf *./EntityFramework.dll
 1ce2ee890043ac1e150a0d8f1732face313b20f7 *./FastColoredTextBox.dll
-9c5d992f8593388d85a2f7d3413d9624be61b9ac *./firmware/linux/abeopilib_1.0.1.deb
+506b1bcf5de5edf1b44c7db4bfaed5ced1835c0e *./firmware/linux/AbeoScan_V4.2.img
 68a08633dfdb2faffa7db82507752f1620556efd *./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7 *./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89 *./ftcserco.dll
@@ -40,8 +40,8 @@ b3955f3bd449d8f47090b76f27cf30c93e8692fa *./lotus_gl_v140_x64.dll
 02516bef5446843ac5b5b5bbbb1cb159800090a2 *./lotus_hw_ptgrey_v140_x64.dll
 6f27ab0aab8b9e724b1b71879235250940273ba6 *./lotus_hw_ti_v140_x64.dll
 8142b0b0abf36f84711c10438a24eb7bb0b41c83 *./lotus_ml_v140_x64.dll
-5b1d2a91f02c508af08f5ff68c1f8a6be59cb072 *./lotus_mv_v140_x64.dll
-26c0f99fdd77dded551698cbe1c9d69383a79cd6 *./lotus_sim_v140_x64.dll
+5fe9c0abb957441dc64068ea65865964064ffa63 *./lotus_mv_v140_x64.dll
+1280348303e5968c0078e18e993c0fc488ec5db9 *./lotus_sim_v140_x64.dll
 4f5940430ec39531b0fe57ff8ea034ca92a43cf8 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
