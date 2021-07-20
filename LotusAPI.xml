@@ -448,22 +448,63 @@ Camera information
 \date	12/19/2016
 
 </member>
+        <member name="M:LotusAPI.Math.Utils.FindCircle(LotusAPI.Math.Point2f[],System.Single,System.Single,LotusAPI.Math.Vector2f)">
+            <summary>
+Find best circle with fixed radius in a curve 
+</summary>
+            <param name="pnts">curve poitns</param>
+            <param name="radius">radius</param>
+            <param name="confident_angle_deg">confident angle in degree</param>
+            <param name="center_direction">direction of the center from the tangental point</param>
+            <returns>best circle or failed circle with radius = 0</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.FindCircle(LotusAPI.Math.Point2f[],System.Single,System.Single,LotusAPI.Math.Vector2f,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+Find best circle with fixed radius in a curve 
+</summary>
+            <param name="pnts">curve poitns</param>
+            <param name="radius">radius</param>
+            <param name="confident_angle_deg">confident angle in degree</param>
+            <param name="center_direction">direction of the center from the tangental point</param>
+            <param name="i0">index of left point</param>
+            <param name="i1">index of tangental point</param>
+            <param name="i2">index of right point</param>
+            <returns>best circle or failed circle with radius = 0</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Extract(LotusAPI.Math.Point2f[],LotusAPI.Math.Rect2f)">
+            <summary>
+Extract points in bounds
+</summary>
+            <param name="pnts">input points</param>
+            <param name="bounds">boundary</param>
+            <returns>points in bounds</returns>
+        </member>
         <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point3f[],System.Int32)">
             <summary>
-Smooth 3D points with gaussian kernel
-</summary>
-        </member>
-        <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point3f[],System.Int32,System.Double)">
-            <summary>
-Smooth 3D points with gaussian kernel
+Smooth 3D points
 </summary>
         </member>
         <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point2f[],System.Int32)">
             <summary>
+Smooth 3D points 
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.GaussianSmooth(LotusAPI.Math.Point3f[],System.Int32)">
+            <summary>
 Smooth 3D points with gaussian kernel
 </summary>
         </member>
-        <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point2f[],System.Int32,System.Double)">
+        <member name="M:LotusAPI.Math.Utils.GaussianSmooth(LotusAPI.Math.Point3f[],System.Int32,System.Double)">
+            <summary>
+Smooth 3D points with gaussian kernel
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.GaussianSmooth(LotusAPI.Math.Point2f[],System.Int32)">
+            <summary>
+Smooth 3D points with gaussian kernel
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.GaussianSmooth(LotusAPI.Math.Point2f[],System.Int32,System.Double)">
             <summary>
 Smooth 3D points with gaussian kernel
 </summary>
