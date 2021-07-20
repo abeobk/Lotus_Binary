@@ -248,6 +248,11 @@
             Wait until paused
             </summary>
         </member>
+        <member name="P:LotusAPI.HW.LaserProfiler.IsValid">
+            <summary>
+            Check if device is connected and is calibrated
+            </summary>
+        </member>
         <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.Int32)">
             <summary>
             Get pin by function and index
