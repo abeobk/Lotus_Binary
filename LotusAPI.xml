@@ -116,7 +116,7 @@ Smooth normal for a pointcloud.
 \param samples (optional): only re-compute for given samples
 
 </member>
-        <member name="M:Lotus.Mv.recomputeNormal(Lotus.Mv.GObject*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Single,std.vector&lt;System.UInt32,std.allocator&lt;System.UInt32&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+        <member name="M:Lotus.Mv.recomputeNormal(Lotus.Mv.GObject*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Single,System.Boolean,cv.Vec&lt;System.Single,0x3&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,std.vector&lt;System.UInt32,std.allocator&lt;System.UInt32&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
 Recompute normal for a pointcloud using plane fitting.
 \param cloud: input pointcloud
 \param radius: neighbour radius
