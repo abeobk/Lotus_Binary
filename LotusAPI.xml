@@ -310,7 +310,7 @@ Image filter base class.
 
 </member>
         <member name="M:Lotus.Mv.CameraModel.undistortPoints(std.vector&lt;cv.Point_&lt;System.Single&gt;,std.allocator&lt;cv.Point_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
-Undistort points.
+Undistort points, results are normalized coordinate
 \param   pnts    The input points.
 \return  undistored points.
 
