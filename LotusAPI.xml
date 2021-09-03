@@ -10,6 +10,22 @@ Load profile from scanner memory
 </summary>
             <param name="profile_name">Profile name</param>
         </member>
+        <member name="M:LotusAPI.MV.CameraModel.Calc3DPoint(LotusAPI.Math.Point2f,LotusAPI.Math.Matrix44d)">
+            <summary>
+Compute 3d point from 2d image point
+</summary>
+            <param name="imgpnt">image point</param>
+            <param name="pose">pose</param>
+            <returns>3d point</returns>
+        </member>
+        <member name="M:LotusAPI.MV.CameraModel.Project3DPoint(LotusAPI.Math.Point3f,LotusAPI.Math.Matrix44d)">
+            <summary>
+Project 3d point to image plane
+</summary>
+            <param name="objpnt">object points</param>
+            <param name="pose">pose</param>
+            <returns>image point</returns>
+        </member>
         <member name="P:LotusAPI.MV.CalibKeyPoint.IsKey">
             <summary>
 Is key point
@@ -373,15 +389,6 @@ Project 3d point to image plane
 \param   opnts   Object points.
 \param   pose    4x4 pose matrix [R|t].
 \return  The calculated image points.
-
-</member>
-        <member name="M:Lotus.Mv.CameraModel.calc3DPoints(std.vector&lt;cv.Point_&lt;System.Single&gt;,std.allocator&lt;cv.Point_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Matx&lt;System.Double,0x4,0x4&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
-Compute 3d points from image point and plane pose.
-\author  Do Van Phu
-\date    1/17/201bb7
-\param   ipnts   Image points.
-\param   pose    4x4 pose matrix [R|t].
-\return  The calculated object points.
 
 </member>
         <member name="M:Lotus.Mv.CameraModel.estimate(std.vector&lt;cv.Point_&lt;System.Single&gt;,std.allocator&lt;cv.Point_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,std.vector&lt;cv.Point_&lt;System.Single&gt;,std.allocator&lt;cv.Point_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
