@@ -24,7 +24,7 @@ fbed9696f143f444d121abf9be4da10e8eb940c8 *./LotusAPI.App.exe
 f2e4bc11555813c829f2fe9931ba0125d8956ccc *./LotusAPI.Controls.xml
 0b31113bc74c626fda7c50d6bedfa44580bc3280 *./LotusAPI.Data.dll
 a5574d560bda14521795f9c019cfc7bb0c9e598d *./LotusAPI.Data.xml
-e3fff4b474ea59fc035505627d02ec6ca7d56322 *./LotusAPI.dll
+e00281ce17b1d6a3a13788561decb3572027192e *./LotusAPI.dll
 02676431fbd51b8c5711914b2e216c5e732ee68e *./LotusAPI.HW.dll
 ca56038bff3277a1dc9d4485993adb4137d7da02 *./LotusAPI.HW.xml
 49a8673b9af086be4369de2c63a09a427a898cb5 *./LotusAPI.Robotics.dll
@@ -57,7 +57,7 @@ e318b4170c765c75c537e6da422057b5f4036340 *./SharpGL.dll
 7caeaf1df015b1c26f491292315026cf955d12d7 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-847c3535735b0127dc442824c24a329a2478a89c *./StereoLocator.exe
+e761e6371157c547693148c6f78394d1a028009b *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
