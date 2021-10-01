@@ -18,7 +18,7 @@ Compute 3d point from 2d image point
             <param name="pose">pose</param>
             <returns>3d point</returns>
         </member>
-        <member name="M:LotusAPI.MV.CameraModel.Project3DPoint(LotusAPI.Math.Point3f,LotusAPI.Math.Matrix44d)">
+        <member name="M:LotusAPI.MV.CameraModel.Project3DPoint(LotusAPI.Math.Point3f)">
             <summary>
 Project 3d point to image plane
 </summary>
@@ -382,7 +382,7 @@ Draw pose.
 \param           lw      (Optional) The lw.
 
 </member>
-        <member name="M:Lotus.Mv.CameraModel.project3DPoints(std.vector&lt;cv.Point3_&lt;System.Single&gt;,std.allocator&lt;cv.Point3_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv.Matx&lt;System.Double,0x4,0x4&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+        <member name="M:Lotus.Mv.CameraModel.project3DPoints(std.vector&lt;cv.Point3_&lt;System.Single&gt;,std.allocator&lt;cv.Point3_&lt;System.Single&gt;&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
 Project 3d point to image plane
 \author  Do Van Phu
 \date    2/27/2017
