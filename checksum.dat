@@ -20,11 +20,11 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 8568d26019ed435aecbb022a5a193d983e840ab0 *./Intel.Realsense.dll
 66fd26a3c25afdd7dc7e78443777623b31169bcc *./LogViewer.exe
 d63a127b7a3fd7d4e22ec26595c4a1fc6c909ad3 *./LotusAPI.App.exe
-8434aaa624bc18459d7086a4260fe268b281748e *./LotusAPI.Controls.dll
+29a4705113bab96a949e49d164d7cf5f7e98b68b *./LotusAPI.Controls.dll
 f2e4bc11555813c829f2fe9931ba0125d8956ccc *./LotusAPI.Controls.xml
 0b31113bc74c626fda7c50d6bedfa44580bc3280 *./LotusAPI.Data.dll
 a5574d560bda14521795f9c019cfc7bb0c9e598d *./LotusAPI.Data.xml
-e06968cb8f35efdab526f677d88d1265fe65cdaa *./LotusAPI.dll
+103a19ff772703b883e577df1cc48a9f0f3d6855 *./LotusAPI.dll
 02676431fbd51b8c5711914b2e216c5e732ee68e *./LotusAPI.HW.dll
 ca56038bff3277a1dc9d4485993adb4137d7da02 *./LotusAPI.HW.xml
 3f8853223e29d95b7b492bea0df13fa562216e0d *./LotusAPI.Robotics.dll
@@ -43,7 +43,7 @@ cc65da5fc3402fc6066af4e88e95f12d3cd20879 *./lotus_hw_basler_v140_x64.dll
 17e9e812e4ebedee314e1d5f114a3c9d3bad8775 *./lotus_hw_ti_v140_x64.dll
 30fc56d53f12dc5dac2747b2a9fd0093802ae844 *./lotus_ml_v140_x64.dll
 5bfa738c83269afce21620c403fc2e8880352190 *./lotus_mv_v140_x64.dll
-5a7441eca6245f11300e3dfd6e455d43f6874161 *./lotus_sim_v140_x64.dll
+ab3cf9b4bc71820f9610858b41fab9727c7b56bf *./lotus_sim_v140_x64.dll
 cad2942646be1c6471910abc2861cab1c769f505 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
