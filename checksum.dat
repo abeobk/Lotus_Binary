@@ -19,15 +19,15 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 157b76d377b1e99bb918f710b8f1135c04cb3770 *./glfw3.dll
 8568d26019ed435aecbb022a5a193d983e840ab0 *./Intel.Realsense.dll
 66fd26a3c25afdd7dc7e78443777623b31169bcc *./LogViewer.exe
-d63a127b7a3fd7d4e22ec26595c4a1fc6c909ad3 *./LotusAPI.App.exe
+804bc536f11fded9697358ab62e331a9d78be620 *./LotusAPI.App.exe
 765508e4f6884654778dc0937139f967fdf8f7ed *./LotusAPI.Controls.dll
 f2e4bc11555813c829f2fe9931ba0125d8956ccc *./LotusAPI.Controls.xml
-e84a62ac0ca62dcef024ba9fb2cd73894fa232a9 *./LotusAPI.Data.dll
+ca75201d2da6687d8c2f64a70cb379b204909d57 *./LotusAPI.Data.dll
 a5574d560bda14521795f9c019cfc7bb0c9e598d *./LotusAPI.Data.xml
 103a19ff772703b883e577df1cc48a9f0f3d6855 *./LotusAPI.dll
 770b5d8a1b8bdbe49e1e0742ce91868f396d77d6 *./LotusAPI.HW.dll
 64c94c2488240464b0f4af9cf504e9e78515ef15 *./LotusAPI.HW.xml
-c15571d25d804d16dd19898823cb8d11a7db6b2d *./LotusAPI.Robotics.dll
+be2279cac07e9c3acbf71100eff8dbe301a32bdf *./LotusAPI.Robotics.dll
 cac2f112b5b58505d84cf933a34ce8bce9a5adca *./LotusAPI.Robotics.xml
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 9082cec0d6cccef7db5d50cb97e60b6ae2da57ae *./LotusAPI.Sim.dll
@@ -38,7 +38,7 @@ cfd44d6871fb19d2ed34a2c79900cbe4c9201363 *./LotusAPI.xml
 73f0b73647011b855f36e1274be161e97d8f26cc *./lotus_gl_v140_x64.dll
 cc65da5fc3402fc6066af4e88e95f12d3cd20879 *./lotus_hw_basler_v140_x64.dll
 7d22f7bdd8de9e0214b42a0cb3b4e1990b2bfedc *./lotus_hw_basler_v140_x64_pylon5.dll
-8517e0c32391f140e23a4a7449bf23455b577998 *./lotus_hw_intel_rs_v140_x64.dll
+721ce84a0dc6f5ae39a91d3830767162e54c9af0 *./lotus_hw_intel_rs_v140_x64.dll
 8ba4a0b522aa8667d83996b6405d77f78db0fb0a *./lotus_hw_ptgrey_v140_x64.dll
 17e9e812e4ebedee314e1d5f114a3c9d3bad8775 *./lotus_hw_ti_v140_x64.dll
 30fc56d53f12dc5dac2747b2a9fd0093802ae844 *./lotus_ml_v140_x64.dll
