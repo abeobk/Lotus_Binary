@@ -27,7 +27,7 @@ a5574d560bda14521795f9c019cfc7bb0c9e598d *./LotusAPI.Data.xml
 103a19ff772703b883e577df1cc48a9f0f3d6855 *./LotusAPI.dll
 3e8749b55e553af84f1e34ba8ac0a39fd0197cb3 *./LotusAPI.HW.dll
 64c94c2488240464b0f4af9cf504e9e78515ef15 *./LotusAPI.HW.xml
-36360a224bee8bef35d1663e573dbf8f84435934 *./LotusAPI.Robotics.dll
+60b2426814d8bfb7b470df2b63a68e746a4dca0b *./LotusAPI.Robotics.dll
 cac2f112b5b58505d84cf933a34ce8bce9a5adca *./LotusAPI.Robotics.xml
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 9082cec0d6cccef7db5d50cb97e60b6ae2da57ae *./LotusAPI.Sim.dll
@@ -50,14 +50,14 @@ cad2942646be1c6471910abc2861cab1c769f505 *./lotus_v140_x64.dll
 03147574c2bba76c1c3a568e7b11867d8a884d9a *./opencv_world410.dll
 146d5faafe7896396bb2eca9aca34b2c45a6b71c *./push.sh
 d6eda0692777c42180b38aeb3c5ea9af9fc3739f *./realsense2.dll
-056ab9900e90699c5e13a27bf22e3892d0034583 *./RobotController.exe
+5d6a3109588f6868e7425f1f91837a77b4e0e586 *./RobotController.exe
 001fea4b359e49b602cde4c42ffa895522dcf115 *./S7.Net.dll
 7b098b1ba149854f9bfe8cd456c2b51eba900d44 *./S7.Net.xml
 e318b4170c765c75c537e6da422057b5f4036340 *./SharpGL.dll
 7caeaf1df015b1c26f491292315026cf955d12d7 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-cf6d3cad09ff8b17ef308b1695d79819583a8ab4 *./StereoLocator.exe
+ade20e49703ce4f8406c04de89dcdd0535bbf208 *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
