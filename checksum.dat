@@ -42,7 +42,7 @@ cc65da5fc3402fc6066af4e88e95f12d3cd20879 *./lotus_hw_basler_v140_x64.dll
 8ba4a0b522aa8667d83996b6405d77f78db0fb0a *./lotus_hw_ptgrey_v140_x64.dll
 17e9e812e4ebedee314e1d5f114a3c9d3bad8775 *./lotus_hw_ti_v140_x64.dll
 30fc56d53f12dc5dac2747b2a9fd0093802ae844 *./lotus_ml_v140_x64.dll
-5bfa738c83269afce21620c403fc2e8880352190 *./lotus_mv_v140_x64.dll
+8f7b05bf77e54ca60c5e8593d72fcfaf2abd4a5b *./lotus_mv_v140_x64.dll
 ab3cf9b4bc71820f9610858b41fab9727c7b56bf *./lotus_sim_v140_x64.dll
 cad2942646be1c6471910abc2861cab1c769f505 *./lotus_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6 *./opencv_ffmpeg410_64.dll
@@ -57,7 +57,7 @@ e318b4170c765c75c537e6da422057b5f4036340 *./SharpGL.dll
 7caeaf1df015b1c26f491292315026cf955d12d7 *./SharpGL.WinForms.dll
 ceaf35a652387122091021e3fc91fc2b33e05831 *./SQLite.Designer.dll
 f34f9be1590b27e2155366385cd536b77c5936e8 *./SQLite.Interop.dll
-ade20e49703ce4f8406c04de89dcdd0535bbf208 *./StereoLocator.exe
+cc6d6bf92e7c448680eeaf1fb8f1a1457e7c529b *./StereoLocator.exe
 056abf534ad279007ed7079c129f9cd4162b8b14 *./System.Data.SQLite.dll
 83d809c4f959ac9a993f633bb26b3a2627624152 *./System.Data.SQLite.EF6.dll
 1a58176bb6942c120288f5be706aae7f0303b562 *./System.Data.SQLite.Linq.dll
