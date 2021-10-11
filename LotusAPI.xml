@@ -1272,12 +1272,6 @@ Get list of keys
 </summary>
             <returns>List of keys</returns>
         </member>
-        <member name="M:LotusAPI.Json.GetObjects">
-            <summary>
-Get a dictionary of key-json_node
-</summary>
-            <returns>Key-json_node dictionary</returns>
-        </member>
         <member name="P:LotusAPI.Json.IsPrimitive">
             <summary>
 Check if Json node contains a primitive value 
