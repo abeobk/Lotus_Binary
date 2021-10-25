@@ -410,7 +410,7 @@ Writes the given node.
 \param [in,out]  node    The node to write.
 
 </member>
-        <member name="M:Lotus.Mv.CameraModel.calib(Lotus.Mv.CameraCalibData*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32)">
+        <member name="M:Lotus.Mv.CameraModel.calib(Lotus.Mv.CameraCalibData*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Boolean,System.Int32)">
 Calibs the given calib data.
 Poses are then stored back to the calib data.
 If calib data contains poses, do a refine calibration
