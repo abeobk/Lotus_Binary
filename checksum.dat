@@ -1,4 +1,4 @@
-569cd61fa2a70a204cb6976354449cb32567542a *./Abeo.Controls.dll
+885802068839a0e6a40dc2c12f3f600ed6b955c0 *./Abeo.Controls.dll
 1591cd520ea12659ca41467dd5ddf99bc2011b32 *./AbeoJsonEditor.exe
 d12313f9355e66f452653aad8dd6ef603ee6569f *./AbeoMaskEditor.exe
 4fe6da40a3e6b115eb9c5d4ae790d13c6566f35c *./AbeoSIM.exe
@@ -20,14 +20,14 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 8568d26019ed435aecbb022a5a193d983e840ab0 *./Intel.Realsense.dll
 66fd26a3c25afdd7dc7e78443777623b31169bcc *./LogViewer.exe
 c2d0541e8da592b6e3bd16927e510184a98c931a *./LotusAPI.App.exe
-893e3eafbc9de76836d4a2df8cf62e6cc4790e36 *./LotusAPI.Controls.dll
+a67b45f5e26b11699493b221b8909cb222f0a18a *./LotusAPI.Controls.dll
 f2e4bc11555813c829f2fe9931ba0125d8956ccc *./LotusAPI.Controls.xml
-7da9bf22f93e6002417306b3110eb9c105ef153b *./LotusAPI.Data.dll
+40a02e2c159863d7046b3126362d08c248687ca6 *./LotusAPI.Data.dll
 a5574d560bda14521795f9c019cfc7bb0c9e598d *./LotusAPI.Data.xml
 906d38985c4325d74e234d5bee05721ebec98262 *./LotusAPI.dll
 a72d47e8ed674709d85b3f66bef33445dd352223 *./LotusAPI.HW.dll
 64c94c2488240464b0f4af9cf504e9e78515ef15 *./LotusAPI.HW.xml
-8243bae9197025091ef01fe2e290f14ecd6f97bb *./LotusAPI.Robotics.dll
+3daffacdd5c9b4a3ac4b2d9c8d0e54ab969be014 *./LotusAPI.Robotics.dll
 cac2f112b5b58505d84cf933a34ce8bce9a5adca *./LotusAPI.Robotics.xml
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
 9082cec0d6cccef7db5d50cb97e60b6ae2da57ae *./LotusAPI.Sim.dll
@@ -38,7 +38,7 @@ e2147f2e2cf27dac3090fd98516bbb033426e0c2 *./LotusAPI.xml
 7a112e5fd2636b4fe694132b16e5ab4044e894c8 *./lotus_gl_v140_x64.dll
 a7b7c8df28edbd441b6f38e5ece03c8d6c66699f *./lotus_hw_basler_v140_x64.dll
 7d22f7bdd8de9e0214b42a0cb3b4e1990b2bfedc *./lotus_hw_basler_v140_x64_pylon5.dll
-089a827fed9abc4654a30b6644361e9d4b9974df *./lotus_hw_intel_rs_v140_x64.dll
+a7a5a7c0a52645ca1da6d805a947f2fda2c3c45b *./lotus_hw_intel_rs_v140_x64.dll
 392aa0e31b1cf4f82198dac5c4fe969241d3f402 *./lotus_hw_ptgrey_v140_x64.dll
 b59aec7adb8b213a587469fcc6635b6b9dc95ee3 *./lotus_hw_ti_v140_x64.dll
 30fc56d53f12dc5dac2747b2a9fd0093802ae844 *./lotus_ml_v140_x64.dll
