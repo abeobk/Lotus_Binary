@@ -111,16 +111,6 @@
             Asynchronous task queue
             </summary>
         </member>
-        <member name="M:LotusAPI.Utils.TaskQueue.#ctor">
-            <summary>
-            Create task queue and start
-            </summary>
-        </member>
-        <member name="M:LotusAPI.Utils.TaskQueue.Start">
-            <summary>
-            Start the queue
-            </summary>
-        </member>
         <member name="T:LotusAPI.ChecksumUtils">
             <summary>
             Checksum utilities
