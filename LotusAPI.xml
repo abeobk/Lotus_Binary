@@ -839,6 +839,41 @@ A macro that defines define CLI convert.
 \param   OtherT  The other t.
 
 </member>
+        <member name="T:LotusAPI.Math.Vector_&lt;System.Single,0x2&gt;">
+A macro that defines vector default Constructor.
+\param   derived The derived.
+
+A macro that defines vector CLI convert method.
+\param   derived The derived.
+
+A macro that defines vector Constructor 2.
+\param   derived The derived.
+\param   T       The void to process.
+
+A macro that defines vector Constructor 3.
+\param   derived The derived.
+\param   T       The void to process.
+
+A macro that defines vector Constructor 4.
+\param   derived The derived.
+\param   T       The void to process.
+
+A macro that defines define vector 2.
+\param   derived The derived.
+\param   T       The void to process.
+
+A macro that defines define vector 3.
+\param   derived The derived.
+\param   T       The void to process.
+
+A macro that defines define vector 4.
+\param   derived The derived.
+\param   T       The void to process.
+
+A macro that defines vector instantiate.
+\param   T   The void to process.
+
+</member>
         <member name="T:LotusAPI.Math.Matrix21f">
 A macro that defines matrix default Constructor.
 \param   derived The derived.
@@ -938,6 +973,11 @@ A macro that defines define matrix 4x 3.
 \param   T       The void to process.
 \param   m       The void to process.
 \param   n       The void to process.
+
+</member>
+        <member name="T:LotusAPI.Math.Matrix_&lt;System.Double,0x2,0x2&gt;">
+A macro that defines matrix instantiate.
+\param   T   The void to process.
 
 </member>
         <member name="M:LotusAPI.Registry.SetValue(System.String,System.Boolean)">
@@ -9410,6 +9450,13 @@ Special initializing constructor for string literals.
 </member>
         <member name="M:cvflann.any.#ctor">
 Empty constructor.
+</member>
+        <member name="T:cvflann.anyimpl.choose_policy{System.SByte}">
+Specializations for small types.
+</member>
+        <member name="T:cvflann.anyimpl.choose_policy{cvflann.anyimpl.any}">
+Choosing the policy for an any type is illegal, but should never happen.
+This is designed to throw a compiler error.
 </member>
         <member name="M:cv.fisheye.stereoCalibrate(cv._InputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv._InputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv._InputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv._InputOutputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv._InputOutputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv._InputOutputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv._InputOutputArray!System.Runtime.CompilerServices">
 @brief Performs stereo calibration
