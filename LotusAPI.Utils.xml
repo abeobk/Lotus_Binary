@@ -106,7 +106,7 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:LotusAPI.Utils.TaskQueue">
+        <member name="T:LotusAPI.Utils.UnstoppableTaskQueue">
             <summary>
             Asynchronous task queue
             </summary>
