@@ -27,7 +27,8 @@ f973457bbe2ca14ecc4b8dafe6beff66255866b3 *./LotusAPI.Data.dll
 a5574d560bda14521795f9c019cfc7bb0c9e598d *./LotusAPI.Data.xml
 a2fe22ca8afec17c2172cbbe4aba41c8374442a5 *./LotusAPI.dll
 e6663c17899d239852f3d8a76157f88a01f7208c *./LotusAPI.HW.dll
-88bc4994f86905ad5a6ed105ac1938cfc188c4f3 *./LotusAPI.HW.OpcPlc.dll
+cd0cd5ba7530d1c0318c780d9879d43903bdfb98 *./LotusAPI.HW.OpcPlc.dll
+b249dcf06dc09feab21243f49f31809d392c691f *./LotusAPI.HW.OpcPlc.xml
 a5a2949092d3c7767fca339a40e640333ec2204f *./LotusAPI.HW.xml
 bde80de981d1a10a6da9cdde5e4f05ab427a4cd1 *./LotusAPI.Robotics.dll
 cac2f112b5b58505d84cf933a34ce8bce9a5adca *./LotusAPI.Robotics.xml
