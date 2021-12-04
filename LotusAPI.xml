@@ -1650,11 +1650,6 @@ Construct file logger object
 File logger that write all logs to a specified file
 </summary>
         </member>
-        <member name="M:LotusAPI.Logger.StartLogTask">
-            <summary>
-Start logger task
-</summary>
-        </member>
         <member name="P:LotusAPI.Logger.EnableDevDebug">
             <summary>
 Enable log to VisualStudio Output
@@ -15212,6 +15207,7 @@ Splits a string.
         <!-- Discarding badly formed XML document comment for member 'M:cv.estimateRigidTransform(cv._InputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,cv._InputArray!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Boolean)'. -->
         <!-- Discarding badly formed XML document comment for member 'T:cv.KalmanFilter'. -->
         <!-- Discarding badly formed XML document comment for member 'M:cv.BackgroundSubtractorMOG2.getComplexityReductionThreshold'. -->
+        <!-- Discarding badly formed XML document comment for member 'M:LotusAPI.Logger.StartLogTask'. -->
         <!-- Discarding badly formed XML document comment for member 'M:Lotus.Mv.estimate_global_direct_light(Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,std.vector<Lotus.Mv.Image,std.allocator<Lotus.Mv.Image>>*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)'. -->
     </members>
 </doc>
