@@ -21,6 +21,13 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:LotusAPI.Controls.FastImageView.SetImage(LotusAPI.MV.Image,System.Boolean)">
+            <summary>
+            Set image (this method is thread safe)
+            </summary>
+            <param name="img">Input image</param>
+            <param name="auto_fit">Apply auto fit?</param>
+        </member>
         <member name="F:LotusAPI.Controls.FormJsonSchema.components">
             <summary>
             Required designer variable.

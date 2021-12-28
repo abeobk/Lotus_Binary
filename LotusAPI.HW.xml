@@ -116,6 +116,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:LotusAPI.HW.FormLaserProfilerSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.FormLaserProfilerSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.HW.FormLaserProfilerSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:LotusAPI.HW.IPLC">
             <summary>
             Write IO
@@ -251,6 +268,11 @@
         <member name="P:LotusAPI.HW.LaserProfiler.IsValid">
             <summary>
             Check if device is connected and is calibrated
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.LaserProfiler.ApplyROI">
+            <summary>
+            Similar to Invalidate() but also Apply new ROI
             </summary>
         </member>
         <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.Int32)">
