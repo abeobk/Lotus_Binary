@@ -1391,5 +1391,15 @@
             </summary>
             <param name="objT">The object type</param>
         </member>
+        <member name="T:LotusAPI.AbeoTypeConverter">
+            <summary>
+            Custom type converter
+            </summary>
+        </member>
+        <member name="T:LotusAPI.AbeoTypeConverter.AbeoPropertyDescriptor">
+            <summary>
+            Custom type descriptor
+            </summary>
+        </member>
     </members>
 </doc>
