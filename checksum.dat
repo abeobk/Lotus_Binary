@@ -32,7 +32,7 @@ dbccba9a9128e482d6b60325f1cc9f9bf69ffe42 *./LotusAPI.HW.OpcPlc.dll
 b249dcf06dc09feab21243f49f31809d392c691f *./LotusAPI.HW.OpcPlc.xml
 ed39085718ffe7726546c189292b8d45fa9c7a8c *./LotusAPI.HW.xml
 a67c80c92c52baa9f48df216ad102b6015fbc353 *./LotusAPI.Robotics.dll
-c253214a7386fc8a8070ccff92a2a8e1afe9ea02 *./LotusAPI.Robotics.Fanuc.dll
+24cac750b8fb514e110f7305a3683ae11da3e0aa *./LotusAPI.Robotics.Fanuc.dll
 70c04989c134e7afc2c1ac22223063fed1c31dd0 *./LotusAPI.Robotics.HRLib.dll
 cac2f112b5b58505d84cf933a34ce8bce9a5adca *./LotusAPI.Robotics.xml
 6f06c618653507dafff03b01ce2da48adceb0374 *./LotusAPI.Settings.dll
@@ -55,7 +55,7 @@ a84aafb22c282a82f2de8a8e1b2d52ec050baa03 *./lotus_gl_v142_x64.dll
 03147574c2bba76c1c3a568e7b11867d8a884d9a *./opencv_world410.dll
 146d5faafe7896396bb2eca9aca34b2c45a6b71c *./push.sh
 d6eda0692777c42180b38aeb3c5ea9af9fc3739f *./realsense2.dll
-4c039dc9c795fc61f41c0cc237c4cf47f8ff20b3 *./RobotController.exe
+f7f7f11d5c32c03d7ffe3510f0421b08556b2709 *./RobotController.exe
 001fea4b359e49b602cde4c42ffa895522dcf115 *./S7.Net.dll
 7b098b1ba149854f9bfe8cd456c2b51eba900d44 *./S7.Net.xml
 7334355724366874f6548aee8b7cc62d3ca25550 *./SharpGL.dll
