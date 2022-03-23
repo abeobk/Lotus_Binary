@@ -1109,13 +1109,13 @@ Parse from json string
 </summary>
             <param name="jsonstr">Json string</param>
         </member>
-        <member name="M:LotusAPI.Json.Load(System.String)">
+        <member name="M:LotusAPI.Json.Load(System.String,System.Boolean)">
             <summary>
 Load from file
 </summary>
             <param name="filename">File path</param>
         </member>
-        <member name="M:LotusAPI.Json.Save(System.String)">
+        <member name="M:LotusAPI.Json.Save(System.String,System.Boolean)">
             <summary>
 Save to file
 </summary>
