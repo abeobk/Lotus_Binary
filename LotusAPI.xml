@@ -787,23 +787,6 @@ Convert angle from radian to degree
             <param name="angle_rad">input angle in radian</param>
             <returns>output angle in degree</returns>
         </member>
-        <member name="M:LotusAPI.IObject.GetInterfaces">
-            <summary>
-Get supported interface (Lotus native interface names)
-</summary>
-            <returns>Native interfaces</returns>
-        </member>
-        <member name="M:LotusAPI.IObject.GetClassName">
-            <summary>
-Get class name
-</summary>
-            <returns>Native class name</returns>
-        </member>
-        <member name="T:LotusAPI.IObject">
-            <summary>
-IObject interface
-</summary>
-        </member>
         <member name="T:LotusAPI.MV.ColorRGBA">
 Color RGBA
 \author  Do Van Phu
@@ -1655,6 +1638,23 @@ Construct file logger object
         <member name="T:LotusAPI.FileLogger">
             <summary>
 File logger that write all logs to a specified file
+</summary>
+        </member>
+        <member name="M:LotusAPI.IObject.GetInterfaces">
+            <summary>
+Get supported interface (Lotus native interface names)
+</summary>
+            <returns>Native interfaces</returns>
+        </member>
+        <member name="M:LotusAPI.IObject.GetClassName">
+            <summary>
+Get class name
+</summary>
+            <returns>Native class name</returns>
+        </member>
+        <member name="T:LotusAPI.IObject">
+            <summary>
+IObject interface
 </summary>
         </member>
         <member name="P:LotusAPI.Logger.EnableDevDebug">

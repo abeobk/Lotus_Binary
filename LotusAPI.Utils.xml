@@ -1366,6 +1366,13 @@
             Type utitilities
             </summary>
         </member>
+        <member name="M:LotusAPI.TypeUtils.GetType(System.String)">
+            <summary>
+            Search for a type in all loaded assemblies
+            </summary>
+            <param name="type_name">Type name</param>
+            <returns>Matched type or null if not found</returns>
+        </member>
         <member name="M:LotusAPI.TypeUtils.SaveTypeInfo(System.String)">
             <summary>
             Save type info to a json file
@@ -1394,11 +1401,6 @@
         <member name="T:LotusAPI.AbeoTypeConverter">
             <summary>
             Custom type converter
-            </summary>
-        </member>
-        <member name="T:LotusAPI.AbeoTypeConverter.AbeoPropertyDescriptor">
-            <summary>
-            Custom type descriptor
             </summary>
         </member>
     </members>
