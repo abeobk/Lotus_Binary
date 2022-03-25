@@ -241,6 +241,51 @@
             <param name="filter">File filter</param>
             <returns>return selected file path</returns>
         </member>
+        <member name="M:LotusAPI.Collection.StdevP_``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})">
+            <summary>
+            Compute population standard deviation
+            </summary>
+            <typeparam name="T">Element type</typeparam>
+            <param name="elems">Element collection</param>
+            <param name="selector">Value selector</param>
+            <returns>Population standard deviation value</returns>
+        </member>
+        <member name="M:LotusAPI.Collection.Stdev_``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})">
+            <summary>
+            Compute sample standard deviation
+            </summary>
+            <typeparam name="T">Element type</typeparam>
+            <param name="elems">Element collection</param>
+            <param name="selector">Value selector</param>
+            <returns>Population standard deviation value</returns>
+        </member>
+        <member name="M:LotusAPI.Collection.GetHistogram_``1(System.Collections.Generic.IEnumerable{``0},System.Double,System.Double,System.Int32,System.Func{``0,System.Double})">
+            <summary>
+            Compute histogram list
+            </summary>
+            <typeparam name="T">Element type</typeparam>
+            <param name="elems">Element collection</param>
+            <param name="min_value">Min value</param>
+            <param name="max_value">Max value</param>
+            <param name="bin_count">Nubmer of bins</param>
+            <param name="selector">Value selector</param>
+            <returns>Histogram list</returns>
+        </member>
+        <member name="M:LotusAPI.Collection.NormalizeHistogram(System.Int32[])">
+            <summary>
+            Normalize histogram form int[] to double[]
+            </summary>
+            <param name="histogram">Count histogram</param>
+            <returns>Normalized histogram</returns>
+        </member>
+        <member name="M:LotusAPI.Collection.GenerateList_``1(System.Int32,System.Func{System.Int32,``0})">
+            <summary>
+            Generate a list
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="cnt"></param>
+            <returns></returns>
+        </member>
         <member name="T:LotusAPI.IOUtils">
             <summary>
             IO utilities
