@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ATMC.Common</name>
+    </assembly>
+    <members>
+        <member name="T:ATMC.Common.ResultCounterView">
+            <summary>
+            Result counter control
+            </summary>
+        </member>
+        <member name="M:ATMC.Common.ResultCounterView.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="F:ATMC.Common.ResultCounterView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ATMC.Common.ResultCounterView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ATMC.Common.ResultCounterView.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
