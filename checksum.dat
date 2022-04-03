@@ -30,11 +30,11 @@ ab67071a313e2e285f69cc32b4b76dfc457bd7e0 *./LotusAPI.Controls.xml
 a5574d560bda14521795f9c019cfc7bb0c9e598d *./LotusAPI.Data.xml
 ac86c75319368e54c20b8683d086367d269b8379 *./LotusAPI.dll
 6ddb0de0d46968fe1e3f989093b80bd521279687 *./LotusAPI.HW.dll
-dbccba9a9128e482d6b60325f1cc9f9bf69ffe42 *./LotusAPI.HW.OpcPlc.dll
+79f8008a55694aacac1cbfb6e70d8741bc88cddf *./LotusAPI.HW.OpcPlc.dll
 b249dcf06dc09feab21243f49f31809d392c691f *./LotusAPI.HW.OpcPlc.xml
 ed39085718ffe7726546c189292b8d45fa9c7a8c *./LotusAPI.HW.xml
 4cae02540f8b55cce34d87e71bcbde36c0ee6910 *./LotusAPI.Robotics.dll
-41724a32ac0aacb313cb683ec16618f5c35d3492 *./LotusAPI.Robotics.Fanuc.dll
+61a07cd5af6f67d8812168eca96f91d2bff0547a *./LotusAPI.Robotics.Fanuc.dll
 cbc0c1ea43de88883a115c6dfeed6c8d5bd17cc9 *./LotusAPI.Robotics.Fanuc.xml
 70c04989c134e7afc2c1ac22223063fed1c31dd0 *./LotusAPI.Robotics.HRLib.dll
 cac2f112b5b58505d84cf933a34ce8bce9a5adca *./LotusAPI.Robotics.xml
