@@ -286,6 +286,26 @@
             <param name="cnt"></param>
             <returns></returns>
         </member>
+        <member name="M:LotusAPI.Collection.Convert_``2(System.Collections.Generic.List{``0},System.Func{``0,``1})">
+            <summary>
+            Convert list
+            </summary>
+            <typeparam name="InT">input type</typeparam>
+            <typeparam name="OutT">output type</typeparam>
+            <param name="elems">collection</param>
+            <param name="converter">converter function</param>
+            <returns>output list</returns>
+        </member>
+        <member name="M:LotusAPI.Collection.Convert_``2(``0[],System.Func{``0,``1})">
+            <summary>
+            Convert array
+            </summary>
+            <typeparam name="InT">input type</typeparam>
+            <typeparam name="OutT">putput type</typeparam>
+            <param name="elems">collection</param>
+            <param name="converter">converter function</param>
+            <returns>output array</returns>
+        </member>
         <member name="T:LotusAPI.IOUtils">
             <summary>
             IO utilities
