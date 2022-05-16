@@ -275,6 +275,23 @@
             Similar to Invalidate() but also Apply new ROI
             </summary>
         </member>
+        <member name="F:LotusAPI.HW.NameSelector.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.NameSelector.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.HW.NameSelector.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.Int32)">
             <summary>
             Get pin by function and index
