@@ -12,6 +12,7 @@ d12313f9355e66f452653aad8dd6ef603ee6569f *./AbeoMaskEditor.exe
 1ce2ee890043ac1e150a0d8f1732face313b20f7 *./FastColoredTextBox.dll
 506b1bcf5de5edf1b44c7db4bfaed5ced1835c0e *./firmware/AbeoScan_V4.2.img
 350b963bbda8e08f1f8837b4f872ff8b8d9f280c *./firmware/lc4500_server_armhf_timeout30
+dd08a07ca51614ffac9aefe9e669403e1054f393 *./firmware/lc4500_server_armhf_timeout30_led_offset
 68a08633dfdb2faffa7db82507752f1620556efd *./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7 *./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89 *./ftcserco.dll
