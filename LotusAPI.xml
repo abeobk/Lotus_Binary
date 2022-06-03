@@ -4,6 +4,161 @@
         "LotusAPI"
     </assembly>
     <members>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.CCxy">
+            <summary>
+Get/set CC.XY point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.CCxx">
+            <summary>
+Get/set CC.XX point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.CCorg">
+            <summary>
+Get/set CC.ORG point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UFxy">
+            <summary>
+Get/set UF.XY point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UFxx">
+            <summary>
+Get/set UF.XX point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UForg">
+            <summary>
+Get/set UF.ORG point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.HandEyeMatrix">
+            <summary>
+Hand eye matrix from calibration
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.EyeMatrix">
+            <summary>
+Eye correction matrix
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.CCMatrix">
+            <summary>
+CC to Base Matrix
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UFMatrix">
+            <summary>
+UF to Base (or CC depends on UF reference ) Matrix
+</summary>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.MV.Pointcloud)">
+            <summary>
+Transform pointcloud from Base to UF
+</summary>
+            <param name="base_cloud">Pointcloud in Base coordinate</param>
+            <returns>Pointcloud in UF coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToCC(LotusAPI.MV.Pointcloud)">
+            <summary>
+Transform pointcloud from Base to CC
+</summary>
+            <param name="base_cloud">Pointcloud in Base coordinate</param>
+            <returns>Pointcloud in CC coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToCC(LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform pointcloud from Eye to CC 
+</summary>
+            <param name="eye_cloud">POintcloud capture in Eye coordinate</param>
+            <param name="robot_pose">Robot capture pose</param>
+            <returns>POitncloud in CC coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToUF(LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform pointcloud from Eye to UF 
+</summary>
+            <param name="eye_cloud">POintcloud capture in Eye coordinate</param>
+            <param name="robot_pose">Robot capture pose</param>
+            <returns>POitncloud in UF coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToBase(LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform pointcloud from Eye to Base
+</summary>
+            <param name="eye_cloud">Pointcloud capture in Eye coordinate</param>
+            <param name="robot_pose">Robot capture pose</param>
+            <returns>Pointcloud in base coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2CC(LotusAPI.Math.Matrix44d)">
+            <summary>
+Get Eye to CC matrix
+</summary>
+            <param name="robot_pose">Robot pose</param>
+            <returns>Eye to CC matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2UF(LotusAPI.Math.Matrix44d)">
+            <summary>
+Get Eye to UF matrix
+</summary>
+            <param name="robot_pose">Robot pose</param>
+            <returns>Eye to UF matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2Base(LotusAPI.Math.Matrix44d)">
+            <summary>
+Get Eye to Base matrix
+</summary>
+            <param name="robot_pose">Robot pose</param>
+            <returns>Eye to base matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.SetCC(LotusAPI.Math.Point3f,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f)">
+            <summary>
+Set CC 3 points
+</summary>
+            <param name="org">ORG</param>
+            <param name="xx">XX</param>
+            <param name="xy">XY</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.SetUF(LotusAPI.Robotics.UFRefFrame,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f)">
+            <summary>
+Set UF 3 points
+</summary>
+            <param name="ref_coord">UF reference coordinate (Base or CC)</param>
+            <param name="org">ORG</param>
+            <param name="xx">XX</param>
+            <param name="xy">XY</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.ReadEyeMatrix(System.String)">
+            <summary>
+Read Eye correction matrix file
+</summary>
+            <param name="eye_matrix_file">Matrix file</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.ReadCCData(System.String)">
+            <summary>
+Read CC 3 poses json file (ORG,XX,XY)
+</summary>
+            <param name="cc_file">CC poses file</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.ReadUFData(System.String)">
+            <summary>
+Read UF 3 poses json file (ORG,XX,XY)
+</summary>
+            <param name="uf_file">UF poses file</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.ReadHandEyeCalibData(System.String)">
+            <summary>
+Read hand eye calibration data from json file
+</summary>
+            <param name="calib_file">calibration data file</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.Init">
+            <summary>
+Initialize hand eye system
+</summary>
+        </member>
         <member name="M:LotusAPI.MV.AbeoScan.LoadProfile(System.String)">
             <summary>
 Load profile from scanner memory
