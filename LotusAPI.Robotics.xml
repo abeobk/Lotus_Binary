@@ -355,6 +355,72 @@
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetItemStrings(System.String[])">
+            <summary>
+            Set item strings
+            </summary>
+            <param name="strs"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetItemValues(System.Double[])">
+            <summary>
+            Set item values
+            </summary>
+            <param name="vals"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetItemValues(System.Single[])">
+            <summary>
+            Set item values
+            </summary>
+            <param name="vals"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetAll(System.String)">
+            <summary>
+            Set all string
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetAll(System.Single)">
+            <summary>
+            Set all value
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetAll(System.Double)">
+            <summary>
+            Set all value
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetShiftPose(LotusAPI.Robotics.RobotPose)">
+            <summary>
+            Set shift pose value
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.SetShiftPose(LotusAPI.Robotics.RobotPose,LotusAPI.Robotics.ShiftLimit)">
+            <summary>
+            Set shift pose value and change fore color of each item based on given shift pose limit
+            </summary>
+            <param name="value">Shift pose</param>
+            <param name="limit">Shift limit</param>
+        </member>
+        <member name="F:LotusAPI.Robotics.ShiftDataView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:LotusAPI.Robotics.ShiftLimitEdit.components">
             <summary> 
             Required designer variable.
