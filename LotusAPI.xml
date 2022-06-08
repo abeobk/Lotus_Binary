@@ -188,7 +188,7 @@ Load profile from scanner memory
 </summary>
             <param name="profile_name">Profile name</param>
         </member>
-        <member name="M:LotusAPI.MV.Utils.ComputeBestOverlapTransform(LotusAPI.MV.Pointcloud,LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d,LotusAPI.Math.Line3d,System.Double,System.Double,System.Double,System.Single,System.Int32)">
+        <member name="M:LotusAPI.MV.Utils.ComputeBestOverlapTransform(LotusAPI.MV.Pointcloud,LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d,LotusAPI.Math.Line3d,System.UInt32[],System.Double,System.Double,System.Double,System.Single,System.Int32)">
             <summary>
 Compute best overlap transform
 </summary>
