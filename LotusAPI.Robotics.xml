@@ -391,6 +391,11 @@
             </summary>
             <param name="value"></param>
         </member>
+        <member name="M:LotusAPI.Robotics.ShiftDataView.Reset">
+            <summary>
+            Reset view reset all to 0
+            </summary>
+        </member>
         <member name="M:LotusAPI.Robotics.ShiftDataView.SetShiftPose(LotusAPI.Robotics.RobotPose)">
             <summary>
             Set shift pose value
@@ -421,6 +426,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:LotusAPI.Robotics.ShiftOffsetEdit.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetEdit.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetEdit.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:LotusAPI.Robotics.ShiftLimitEdit.components">
             <summary> 
             Required designer variable.
@@ -433,6 +455,47 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:LotusAPI.Robotics.ShiftLimitEdit.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetView.SetShiftPose(LotusAPI.Robotics.RobotPose,LotusAPI.Robotics.ShiftLimit)">
+            <summary>
+            Set shift pose value and change fore color of each item based on given shift pose limit
+            </summary>
+            <param name="value">Shift pose</param>
+            <param name="limit">Shift limit</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetView.SetShiftPose(LotusAPI.Robotics.RobotPose)">
+            <summary>
+            Set shift pose value
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetView.SetOffset(LotusAPI.Robotics.ShiftOffset)">
+            <summary>
+            Set offset value
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetView.Reset">
+            <summary>
+            Reset view
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Robotics.ShiftOffsetView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Robotics.ShiftOffsetView.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.

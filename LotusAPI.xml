@@ -39,11 +39,6 @@ Get/set UF.ORG point
 Hand eye matrix from calibration
 </summary>
         </member>
-        <member name="P:LotusAPI.Robotics.HandEyeSystem.EyeMatrix">
-            <summary>
-Eye correction matrix
-</summary>
-        </member>
         <member name="P:LotusAPI.Robotics.HandEyeSystem.CCMatrix">
             <summary>
 CC to Base Matrix
@@ -53,6 +48,34 @@ CC to Base Matrix
             <summary>
 UF to Base (or CC depends on UF reference ) Matrix
 </summary>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.Math.Plane3d)">
+            <summary>
+Transform a Plane from Base to UF
+</summary>
+            <param name="base_cloud">Plane in Base coordinate</param>
+            <returns>Plane in UF coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToCC(LotusAPI.Math.Plane3d)">
+            <summary>
+Transform a Plane from Base to CC
+</summary>
+            <param name="base_cloud">Plane in Base coordinate</param>
+            <returns>Plane in CC coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.Math.Line3d)">
+            <summary>
+Transform a Line from Base to UF
+</summary>
+            <param name="base_cloud">Line in Base coordinate</param>
+            <returns>Line in UF coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToCC(LotusAPI.Math.Line3d)">
+            <summary>
+Transform a Line from Base to CC
+</summary>
+            <param name="base_cloud">Line in Base coordinate</param>
+            <returns>Line in CC coordinate</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.MV.Pointcloud)">
             <summary>
@@ -164,6 +187,21 @@ Initialize hand eye system
 Load profile from scanner memory
 </summary>
             <param name="profile_name">Profile name</param>
+        </member>
+        <member name="M:LotusAPI.MV.Utils.ComputeBestOverlapTransform(LotusAPI.MV.Pointcloud,LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d,LotusAPI.Math.Line3d,System.Double,System.Double,System.Double,System.Single,System.Int32)">
+            <summary>
+Compute best overlap transform
+</summary>
+            <param name="scene">Scene pointcloud</param>
+            <param name="model">Model pointcloud</param>
+            <param name="Halign">Model-&gt;Scene alignment matrix</param>
+            <param name="model_rotaxis">Model rotation axis</param>
+            <param name="min_angle">Min rotation angle</param>
+            <param name="max_angle">Max rotation angle</param>
+            <param name="angle_step">Angle step</param>
+            <param name="overlap_radius">Overlap radius</param>
+            <param name="thread_count">Number of thread used in overlap calculation</param>
+            <returns>Best overlap Model-&gt;Scene alignemnt matrix</returns>
         </member>
         <member name="F:LotusAPI.HW.IntelRealsenseDevice.m_ptr">
 The camera. 
@@ -682,6 +720,14 @@ Smooth 3D points with gaussian kernel
             <summary>
 Transform 3D points
 </summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.TransformLine(LotusAPI.Math.Line3f,LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform a line
+</summary>
+            <param name="line">Input line</param>
+            <param name="H">Transformation matrix</param>
+            <returns>Transformed line</returns>
         </member>
         <member name="M:LotusAPI.Math.Utils.TransformLine(LotusAPI.Math.Line3f,LotusAPI.Math.Matrix44f)">
             <summary>
@@ -15371,5 +15417,6 @@ Splits a string.
         <!-- Discarding badly formed XML document comment for member 'M:cv.BackgroundSubtractorMOG2.getComplexityReductionThreshold'. -->
         <!-- Discarding badly formed XML document comment for member 'M:LotusAPI.Logger.StartLogTask'. -->
         <!-- Discarding badly formed XML document comment for member 'M:Lotus.Mv.estimate_global_direct_light(Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,std.vector<Lotus.Mv.Image,std.allocator<Lotus.Mv.Image>>*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)'. -->
+        <!-- Discarding badly formed XML document comment for member 'P:LotusAPI.Robotics.HandEyeSystem.EyeMatrix'. -->
     </members>
 </doc>
