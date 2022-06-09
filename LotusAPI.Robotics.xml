@@ -518,5 +518,13 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:LotusAPI.Robotics.Yaskawa.Utils.CalculateShiftValue(LotusAPI.Math.Matrix44d,LotusAPI.Math.Point3d)">
+            <summary>
+            Compute shift data used in SFTON function
+            </summary>
+            <param name="H_frame">Frame transformation matrix</param>
+            <param name="ref_point">Reference point</param>
+            <returns>Shift pose</returns>
+        </member>
     </members>
 </doc>
