@@ -96,7 +96,7 @@ Transform pointcloud from Base to CC
 Transform pointcloud from Eye to CC 
 </summary>
             <param name="eye_cloud">POintcloud capture in Eye coordinate</param>
-            <param name="robot_pose">Robot capture pose</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>POitncloud in CC coordinate</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToUF(LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d)">
@@ -104,7 +104,7 @@ Transform pointcloud from Eye to CC
 Transform pointcloud from Eye to UF 
 </summary>
             <param name="eye_cloud">POintcloud capture in Eye coordinate</param>
-            <param name="robot_pose">Robot capture pose</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>POitncloud in UF coordinate</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToBase(LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d)">
@@ -112,28 +112,28 @@ Transform pointcloud from Eye to UF
 Transform pointcloud from Eye to Base
 </summary>
             <param name="eye_cloud">Pointcloud capture in Eye coordinate</param>
-            <param name="robot_pose">Robot capture pose</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>Pointcloud in base coordinate</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2CC(LotusAPI.Math.Matrix44d)">
             <summary>
 Get Eye to CC matrix
 </summary>
-            <param name="robot_pose">Robot pose</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>Eye to CC matrix</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2UF(LotusAPI.Math.Matrix44d)">
             <summary>
 Get Eye to UF matrix
 </summary>
-            <param name="robot_pose">Robot pose</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>Eye to UF matrix</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2Base(LotusAPI.Math.Matrix44d)">
             <summary>
 Get Eye to Base matrix
 </summary>
-            <param name="robot_pose">Robot pose</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>Eye to base matrix</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.SetCC(LotusAPI.Math.Point3f,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f)">
@@ -206,6 +206,38 @@ Compute best overlap transform
         <member name="F:LotusAPI.HW.IntelRealsenseDevice.m_ptr">
 The camera. 
 </member>
+        <member name="M:LotusAPI.MV.Pointcloud.Flatten">
+            <summary>
+Flatten the cloud, effectively unorganize if it is organized
+</summary>
+            <returns>Unorganized cloud</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.WriteASD(System.String)">
+            <summary>
+Write cloud to ASD file
+</summary>
+            <param name="filename">File name</param>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.WritePLY(System.String)">
+            <summary>
+Write cloud to PLY file
+</summary>
+            <param name="filename">File name</param>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ReadASD(System.String)">
+            <summary>
+Read a pointcloud from ASD file
+</summary>
+            <param name="filename">file name</param>
+            <returns>Pointcloud</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ReadPLY(System.String)">
+            <summary>
+Read a pointcloud from PLY file
+</summary>
+            <param name="filename">file name</param>
+            <returns>Pointcloud</returns>
+        </member>
         <member name="M:LotusAPI.MV.Pointcloud.Extract(LotusAPI.MV.Image)">
             <summary>
 Extract organized pointcloud by mask

@@ -48,6 +48,20 @@
             Constructor
             </summary>
         </member>
+        <member name="M:ATMC.Common.ResultCounterView.UpdateCounters(System.Int32,System.Int32)">
+            <summary>
+            Update counter with given values
+            </summary>
+            <param name="ok_cnt">OK count</param>
+            <param name="ng_cnt">NG count</param>
+        </member>
+        <member name="M:ATMC.Common.ResultCounterView.UpdateCounters(LotusAPI.Data.CommonQuery,System.String)">
+            <summary>
+            Update counter value
+            </summary>
+            <param name="db_query">DB query object</param>
+            <param name="reset_time">Counter starting time</param>
+        </member>
         <member name="F:ATMC.Common.ResultCounterView.components">
             <summary> 
             Required designer variable.

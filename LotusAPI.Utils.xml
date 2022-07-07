@@ -182,6 +182,12 @@
             </summary>
             <param name="err">Error message</param>
         </member>
+        <member name="M:LotusAPI.DialogUtils.ShowErr(System.Exception,System.Boolean)">
+            <summary>
+            SHow exception error dialog
+            </summary>
+            <param name="ex">Exception</param>
+        </member>
         <member name="M:LotusAPI.DialogUtils.ShowInfoMsg(System.String)">
             <summary>
             Show an information message box
