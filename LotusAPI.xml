@@ -265,6 +265,13 @@ Read a pointcloud from PLY file
             <param name="filename">file name</param>
             <returns>Pointcloud</returns>
         </member>
+        <member name="M:LotusAPI.MV.Pointcloud.Extract(LotusAPI.Math.Rect2i)">
+            <summary>
+Extract organized pointcloud by ROI
+</summary>
+            <param name="roi">ROI to extract</param>
+            <returns>pointcloud in ROI</returns>
+        </member>
         <member name="M:LotusAPI.MV.Pointcloud.Extract(LotusAPI.MV.Image)">
             <summary>
 Extract organized pointcloud by mask
