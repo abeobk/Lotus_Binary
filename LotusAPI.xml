@@ -49,6 +49,33 @@ CC to Base Matrix
 UF to Base (or CC depends on UF reference ) Matrix
 </summary>
         </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CalcCCShift(LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d)">
+            <summary>
+Calculate CC frame shift for fixed eye system
+</summary>
+            <param name="scan_pose">Robot scan pose</param>
+            <param name="robot_move_pose">Robot move pose</param>
+            <param name="H_base">Scene-&gt;Model alignment matrix</param>
+            <returns />
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CalcUFShift(LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d)">
+            <summary>
+Calculate UF frame shift for fixed eye system
+</summary>
+            <param name="scan_pose">Robot scan pose</param>
+            <param name="robot_move_pose">Robot move pose</param>
+            <param name="H_base">Scene-&gt;Model alignment matrix</param>
+            <returns />
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CalcBaseShift(LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d)">
+            <summary>
+Calculate base frame shift for fixed eye system
+</summary>
+            <param name="scan_pose">Robot scan pose</param>
+            <param name="robot_move_pose">Robot move pose</param>
+            <param name="H_base">Scene-&gt;Model alignment matrix</param>
+            <returns />
+        </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.Math.Plane3d)">
             <summary>
 Transform a Plane from Base to UF
