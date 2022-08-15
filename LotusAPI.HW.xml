@@ -228,6 +228,11 @@
             <param name="pin">output pin</param>
             <param name="value">value</param>
         </member>
+        <member name="M:LotusAPI.HW.IPLC.ClearDO">
+            <summary>
+            Clear DO bits
+            </summary>
+        </member>
         <member name="M:LotusAPI.HW.IPLC.ReadBlock(LotusAPI.HW.IPLC.MemoryBlock)">
             <summary>
             Read memory block
