@@ -33,8 +33,8 @@ b5353d02f9c306e95bbb7aac3120f80b28aeadf2 *./LotusAPI.Data.dll
 6252372f17af5dfb290b982d9724ba6648b374ab *./LotusAPI.Data.xml
 80abeacbbd47613f3d6192b617c861d098fe9a85 *./LotusAPI.dll
 a56df530f49ce1be0653b087f18569c769322550 *./LotusAPI.HW.dll
-a34fb3434726baaf95eb8504b89db29f98354e96 *./LotusAPI.HW.FujiPLC.dll
-e235ab2d82ced27e5dd84654c6eee9bbf1d76099 *./LotusAPI.HW.OpcPlc.dll
+9ef3e159a623a3441f28e1ad100890408d192af8 *./LotusAPI.HW.FujiPLC.dll
+7962154bba7b14cc73464a19a48f0b56d1bcc5dc *./LotusAPI.HW.OpcPlc.dll
 b249dcf06dc09feab21243f49f31809d392c691f *./LotusAPI.HW.OpcPlc.xml
 68594e353c64f7e92cd89d590545c85106ebd8fe *./LotusAPI.HW.xml
 6dfd36db0e90d959cd56cd363d7a3ae5ed756b0d *./LotusAPI.Robotics.ABB.dll
