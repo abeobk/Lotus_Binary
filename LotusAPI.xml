@@ -76,6 +76,27 @@ Calculate base frame shift for fixed eye system
             <param name="H_base">Scene-&gt;Model alignment matrix</param>
             <returns />
         </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CC2Base(LotusAPI.Math.Matrix44d)">
+            <summary>
+Change transform basis from CC to Base
+</summary>
+            <param name="H_uf">CC transform matrix</param>
+            <returns>Base transform matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.UF2Base(LotusAPI.Math.Matrix44d)">
+            <summary>
+Change transform basis from UF to Base
+</summary>
+            <param name="H_uf">UF transform matrix</param>
+            <returns>Base transform matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CCToUF(LotusAPI.Math.Plane3d)">
+            <summary>
+Transform a Plane from CC to UF
+</summary>
+            <param name="cc_cloud">Plane in CC coordinate</param>
+            <returns>Plane in UF coordinate</returns>
+        </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.Math.Plane3d)">
             <summary>
 Transform a Plane from Base to UF
@@ -90,6 +111,13 @@ Transform a Plane from Base to CC
             <param name="base_cloud">Plane in Base coordinate</param>
             <returns>Plane in CC coordinate</returns>
         </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CCToUF(LotusAPI.Math.Line3d)">
+            <summary>
+Transform a Line from CC to UF
+</summary>
+            <param name="cc_cloud">Line in CC coordinate</param>
+            <returns>Line in UF coordinate</returns>
+        </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.Math.Line3d)">
             <summary>
 Transform a Line from Base to UF
@@ -103,6 +131,13 @@ Transform a Line from Base to CC
 </summary>
             <param name="base_cloud">Line in Base coordinate</param>
             <returns>Line in CC coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CC2UF(LotusAPI.MV.Pointcloud)">
+            <summary>
+Transform pointcloud from CC to UF
+</summary>
+            <param name="base_cloud">Pointcloud in CCcoordinate</param>
+            <returns>Pointcloud in UF coordinate</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.BaseToUF(LotusAPI.MV.Pointcloud)">
             <summary>
