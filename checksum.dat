@@ -25,6 +25,8 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 157b76d377b1e99bb918f710b8f1135c04cb3770 *./glfw3.dll
 7de025a64d0ceba125263bd68493ab87331c76b5 *./HRRpcProxy_x64.dll
 8568d26019ed435aecbb022a5a193d983e840ab0 *./Intel.Realsense.dll
+6279151b59ec5651d1d5333955acb496734f60a0 *./libplctag.dll
+d603f64341606f79f2aced1f142f3f54cbee147c *./libplctag.NativeImport.dll
 66fd26a3c25afdd7dc7e78443777623b31169bcc *./LogViewer.exe
 311fa179adceab1a9124a9c78ca84c9f69ff9956 *./LotusAPI.App.exe
 3825112d52f41033880520d0d5044e50c93590a8 *./LotusAPI.Controls.dll
@@ -32,6 +34,7 @@ a3969d46bd709c5985bdd9b66c40dac77d15eaf8 *./LotusAPI.Controls.xml
 e96bfaa736520308104be2199a4815ec792872f4 *./LotusAPI.Data.dll
 6252372f17af5dfb290b982d9724ba6648b374ab *./LotusAPI.Data.xml
 c095f434f31833e75096a2558ede82084cd0a572 *./LotusAPI.dll
+b3260dee7fe9a780f6853811dbb7e9c06aa2e6ea *./LotusAPI.HW.ABPLC.dll
 715dc6e4db978ac2afa6032d11d20434f4da45c4 *./LotusAPI.HW.dll
 9ef3e159a623a3441f28e1ad100890408d192af8 *./LotusAPI.HW.FujiPLC.dll
 671657033676f444aced067e527b8f33dfe0dace *./LotusAPI.HW.OpcPlc.dll
